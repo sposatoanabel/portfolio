@@ -1,0 +1,29 @@
+{
+  "name": "Anabel Sposato Portfolio",
+  "authors": [
+    "Anabel Sposato <sposatoanabel@gmail.com>"
+  ],
+  "description": "bootstrap portfolio",
+  "main": "index.html",
+  "keywords": [
+    "portfolio",
+    "programming",
+    "bootstrap"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.7"
+  },
+  "devDependencies": {
+    "bootswatch-dist": "simplex"
+  }
+}
