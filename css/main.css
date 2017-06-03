@@ -42,6 +42,7 @@ body{
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height:25px;
+    background: #ffffff;
 }
 
 
@@ -49,9 +50,6 @@ body{
     margin: 34.5px -15px;
 }
 
-p{
-
-}
 
 
 /* ================================
@@ -396,7 +394,7 @@ section {
     margin-top: 2%;
 }
 
-#about p, #about h2{
+#about p{
     color: #808990;
     line-height: 1.5rem;
 }
@@ -436,4 +434,87 @@ hr.grayUnderline{
 
 .educationParagraph{
     text-align: center;
+}
+
+
+/*-------------------------
+
+     SERVICES
+
+--------------------------*/
+
+#services h3 {
+    display: inline-block;
+    padding: 0 10px 0 5px;
+    margin: 40px 0 20px 0;
+}
+
+#services i{
+    color: #EBBBA0;
+}
+
+#services h3, #services  p{
+    color: #808990;
+}
+
+
+/*-------------------------
+
+     SKILLS
+
+--------------------------*/
+
+
+#skills .lead{
+    text-align: center;
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.panel{
+    background-color: #f7f7f7;
+}
+
+.panel-primary>.panel-heading {
+    color: #ffffff;
+    background-color: #EBBBA0;
+    border-color: #d9230f;
+}
+
+.panel-primary{
+    border-color:#ebbba0;
+}
+
+.panel-success>.panel-heading {
+    color: #EBBBA0;
+    background-color: #f7f7f7;
+    border-color: #EBBBA0;
+}
+
+.panel-success{
+    border-color:#ebbba0;
+}
+
+#skills{
+    background-color: #f7f7f7;
+}
+
+.panel-group{
+    width: 80%;
+    margin: 18px auto;
+}
+
+
+/*  PORTFOLIO   */
+
+.popup-gallery{
+    margin: 4rem auto;
+}
+
+
+/* FOOTER */
+
+
+footer{
+    background-color: #808990;
 }
