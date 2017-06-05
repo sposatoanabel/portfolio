@@ -383,7 +383,7 @@ hr.pink-line{
     background-color: #f7f7f7;
 }
 
-section {
+section, footer {
     padding: 100px 0;
 }
 
@@ -517,4 +517,33 @@ hr.grayUnderline{
 
 footer{
     background-color: #808990;
+}
+
+footer h4{
+    font-weight: 700;
+}
+
+footer p, footer h4{
+    color: #4b5761;
+}
+
+.copyright{
+    text-align: center;
+    color: #4b5761;
+    border-top: solid 1px #bbbbbb;
+    padding-top: 30px;
+    margin-top: 30px;
+    width: 100%;
+}
+
+
+footer a{
+    color: #4b5761;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+footer a:hover{
+    color: #bbbbbb;
+    text-decoration: none;
 }
