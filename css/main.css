@@ -1,5 +1,3 @@
-
-
 /* ================================
 
     FONTS
@@ -7,21 +5,21 @@
 ===================================*/
 
 @font-face {
-	font-family: 'Open Sans';
-	src: url('fonts/Open_Sans/OpenSans-Semibold.eot');
-	src: url('fonts/Open_Sans/OpenSans-Semibold.eot?#iefix') format('embedded-opentype'),
-		url('fonts/Open_Sans/OpenSans-Semibold.svg#OpenSans-Semibold') format('svg');
-	font-weight: 600;
-	font-style: normal;
+    font-family: 'Open Sans';
+    src: url('fonts/Open_Sans/OpenSans-Semibold.eot');
+    src: url('fonts/Open_Sans/OpenSans-Semibold.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Open_Sans/OpenSans-Semibold.svg#OpenSans-Semibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
 }
 
 @font-face {
-	font-family: 'Open Sans';
-	src: url('fonts/Open_Sans/OpenSans.eot');
-	src: url('fonts/Open_Sans/OpenSans.eot?#iefix') format('embedded-opentype'),
-		url('fonts/Open_Sans/OpenSans.svg#OpenSans') format('svg');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'Open Sans';
+    src: url('fonts/Open_Sans/OpenSans.eot');
+    src: url('fonts/Open_Sans/OpenSans.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Open_Sans/OpenSans.svg#OpenSans') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 /* ================================
@@ -30,27 +28,23 @@
 
 ===================================*/
 
-
-html{
-    font-family:'Open Sans', Helvetica, sans-serif;
+html {
+    font-family: 'Open Sans', Helvetica, sans-serif;
 }
 
 html,
-body{
-    height:100%;
-    width:100%;
+body {
+    height: 100%;
+    width: 100%;
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
-    line-height:25px;
+    line-height: 25px;
     background: #ffffff;
 }
-
 
 .navbar-nav {
     margin: 34.5px -15px;
 }
-
-
 
 /* ================================
 
@@ -58,48 +52,45 @@ body{
 
 ===================================*/
 
-h1,h2,h3{
+h1, h3 {
     text-align: center;
+    color: #808990;
 }
 
-h1{
-    font-size:4rem;
+h1 {
+    font-size: 4rem;
     color: #545454;
     font-weight: bold;
     line-height: 4.3rem;
 }
 
-h2{
-    text-align:center;
+h2 {
+    text-align: center;
     font-size: 2rem;
 }
 
-
-
-
-header{
+header {
     background: linear-gradient(rgba(255, 255, 255, 0.8),
-                 rgba(255, 255, 255, 0.8)),
-                 url('../imgs/geometric.svg')
-                 center center repeat #f7f7f7;
+    rgba(255, 255, 255, 0.8)),
+    url('../imgs/geometric.svg') center center repeat #f7f7f7;
     width: 100%;
     background-size: 16%;
-    background-attachment:scroll;
-    height:100vh;
+    background-attachment: scroll;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-
-header h2{
-    font-size:2rem;
-}
-header h3{
-    font-size:3rem;
+header h2 {
+    font-size: 2rem;
 }
 
-header .lead{
+header h3 {
+    font-size: 3rem;
+}
+
+header .lead {
 
     text-align: center;
     padding: 10px 0;
@@ -107,17 +98,11 @@ header .lead{
     margin: 0 auto
 }
 
-header hr{
+header hr {
     width: 3%;
     border: 2px solid #EBBBA0;
 
 }
-
-
-
-
-
-
 
 /*------------------------------
 
@@ -125,28 +110,26 @@ header hr{
 
 --------------------------------*/
 
-
-header a:first-child{
+header a:first-child {
     margin-right: 2%;
 }
 
-header a{
+header a {
     margin-top: 2%;
 }
+
 /* BUTTON DEFAULT*/
 
-
-.btn-default{
+.btn-default {
     color: #fff;
     background: #EBBBA0 none;
 
 }
 
-.btn-default, .btn-default:hover{
+.btn-default, .btn-default:hover {
     background-image: none;
 
 }
-
 
 .btn-default:hover {
     box-shadow: inset 0 0 0 5px #ebac88;
@@ -154,15 +137,14 @@ header a{
     border: 3px solid #ebac88;
     color: #FFFFFF;
 }
+
 .btn-default:active,
 .btn-default.active {
     box-shadow: inset 0 0 0 0 #ebac88;
     color: #ffffff;
-    background:none #FFFFFF;
+    background: none #FFFFFF;
     border-color: #ebac88;
 }
-
-
 
 .btn-default:focus,
 .btn-default.focus {
@@ -174,15 +156,13 @@ header a{
 }
 
 .btn-default:active:hover,
-.btn-default.active:hover{
+.btn-default.active:hover {
     color: #ffffff;
     background: none #EBBBA0;
     border-color: #ebac88;
 }
 
-
-
-.btn-default, .btn-primary{
+.btn-default, .btn-primary {
     border-radius: 5px;
     border: 3px solid #ebac88;
     overflow: hidden;
@@ -191,23 +171,20 @@ header a{
 
 }
 
-
 /* BUTTON PRIMARY*/
 
-.btn-primary{
+.btn-primary {
     color: #EBBBA0;
-    background:transparent none;
+    background: transparent none;
 }
 
-
-.btn-primary:hover{
+.btn-primary:hover {
     box-shadow: inset 0 0 0 5px #ebac88;
     background: #FFFFFF none;
     border: 3px solid #ebac88;
     color: #EBBBA0;
 
 }
-
 
 .btn-primary:active,
 .btn-primary.active {
@@ -216,8 +193,6 @@ header a{
     border-color: #ebac88;
     background-image: none;
 }
-
-
 
 .btn-primary:focus,
 .btn-primary.focus {
@@ -229,40 +204,32 @@ header a{
 }
 
 .btn-primary:active:hover,
-.btn-primary.active:hover{
+.btn-primary.active:hover {
     color: #ffffff;
     background-color: #EBBBA0;
     border-color: #ebac88;
     background-image: none;
 }
 
-
-
-
-
-
-
-
-.introWrapper h1{
-    width:50%;
-    font-size:3rem;
+.introWrapper h1 {
+    width: 50%;
+    font-size: 3rem;
 }
 
-
-.imgResponsive{
+.imgResponsive {
     display: block;
     max-width: 100%;
     height: auto;
 }
 
-.portfolio-boxSize{
-        position: relative;
-        display: block;
-        max-width: 650px;
-        margin: 10px auto;
+.portfolio-boxSize {
+    position: relative;
+    display: block;
+    max-width: 650px;
+    margin: 10px auto;
 }
 
-.portfolio-boxSize .portfolioContainerDescription{
+.portfolio-boxSize .portfolioContainerDescription {
     color: white;
     opacity: 0;
     display: block;
@@ -277,7 +244,7 @@ header a{
     transition: all 0.35s;
 }
 
-.portfolio-boxSize .portfolioContainerDescription .portfolioDescription{
+.portfolio-boxSize .portfolioContainerDescription .portfolioDescription {
     width: 100%;
     text-align: center;
     position: absolute;
@@ -285,30 +252,29 @@ header a{
     transform: translateY(-50%);
 }
 
-
-.portfolio-boxSize:hover .portfolioContainerDescription{
+.portfolio-boxSize:hover .portfolioContainerDescription {
     opacity: 1;
 
 }
 
-.portfolioDescription p{
+.portfolioDescription p {
     color: #343434;
 }
 
-.category{
+.category {
     font-size: 1rem;
     text-transform: uppercase;
 }
 
-.projectName{
+.projectName {
     font-size: 1.5rem;
 }
 
-.year{
+.year {
     font-size: 1rem;
 }
 
-.justified-btn{
+.justified-btn {
     margin: 0 auto;
 }
 
@@ -316,43 +282,48 @@ header a{
     float: none;
     display: inline-block;
     *display: inline;
-    zoom:1;
+    zoom: 1;
 }
 
-.nav-tabs, .nav-pills{
+.nav-tabs, .nav-pills {
     text-align: center;
+    margin-bottom: 30px;
+    margin-top: 40px;
 }
 
-.navbar-brand>img{
+.navbar-brand > img {
     width: 250%;
     max-width: 170px;
 }
 
-.navbar-brand{
+.navbar-brand {
     padding: 11px 15px;
 }
 
-footer img{
+footer img {
     width: 250%;
     max-width: 250px;
 }
 
-.navbar{
+.navbar {
     margin-bottom: 0;
 }
-.navbar-nav{
+
+.navbar-nav {
     margin: 15px -15px;
 }
+
 .navbar-brand {
     padding: 23px 15px;
 }
-.navbar-brand>img {
+
+.navbar-brand > img {
     width: 250%;
     max-width: 170px;
     vertical-align: middle;
 }
 
-.navbar-default{
+.navbar-default {
     background-color: #fefefe;
     border-color: #eeeeee;
 }
@@ -365,20 +336,19 @@ footer img{
 
 }
 
-
-
 /*---------------------------------------
 
     ABOUT
 
 ----------------------------------------*/
 
-hr.pink-line{
+hr.pink-line {
     width: 3%;
     border: 2px solid #EBBBA0;
     text-align: center;
 }
-.primary-colour{
+
+.primary-colour {
 
     background-color: #f7f7f7;
 }
@@ -387,32 +357,30 @@ section, footer {
     padding: 100px 0;
 }
 
-.commas{
+.commas {
     content: open-quote;
     color: #ffffff;
     font-size: 4rem;
     margin-top: 2%;
 }
 
-#about p{
+#about p {
     color: #808990;
     line-height: 1.5rem;
 }
 
-
-
-#about h3{
+#about h3 {
     color: #808990;
     text-align: left;
     padding-left: 15px;
     margin-bottom: 20px;
 }
 
-hr.grayUnderline{
+hr.grayUnderline {
     margin: 20px;
 }
 
-.circle{
+.circle {
     border-radius: 50%;
     background: #FFFFFF;
     width: 50px;
@@ -420,22 +388,21 @@ hr.grayUnderline{
     margin: 16px auto;
 }
 
-#about i{
+#about i {
     text-align: center;
     display: block;
     position: relative;
     top: 17px;
 }
 
-#about h4{
+#about h4 {
     text-align: center;
     margin: 20px 0;
 }
 
-.educationParagraph{
+.educationParagraph {
     text-align: center;
 }
-
 
 /*-------------------------
 
@@ -444,19 +411,38 @@ hr.grayUnderline{
 --------------------------*/
 
 #services h3 {
-    display: inline-block;
     padding: 0 10px 0 5px;
     margin: 40px 0 20px 0;
+    line-height: 2rem;
 }
 
-#services i{
+#services i {
     color: #EBBBA0;
+    text-align: center;
+    display: block;
+    position: relative;
+    top: 17px;
 }
 
-#services h3, #services  p{
+#services h3, #services p {
     color: #808990;
 }
 
+
+.box {
+    background-color: #ffffff;
+    padding: 7%;
+    border-radius: 3px;
+    border: solid 1px #f7f7f7;
+    margin-bottom: 2rem;
+}
+
+.box .circle {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin: 16px auto;
+}
 
 /*-------------------------
 
@@ -464,70 +450,76 @@ hr.grayUnderline{
 
 --------------------------*/
 
-
-#skills .lead{
+#skills .lead {
     text-align: center;
     width: 80%;
     margin: 2rem auto;
 }
 
-.panel{
-    background-color: #f7f7f7;
+.panel {
+    background-color: #ffffff;
 }
 
-.panel-primary>.panel-heading {
+.panel-primary > .panel-heading {
     color: #ffffff;
     background-color: #EBBBA0;
     border-color: #d9230f;
 }
 
-.panel-primary{
-    border-color:#ebbba0;
+.panel-primary {
+    border-color: #ebbba0;
 }
 
-.panel-success>.panel-heading {
+.panel-success > .panel-heading {
     color: #EBBBA0;
-    background-color: #f7f7f7;
+    background-color: #ffffff;
     border-color: #EBBBA0;
 }
 
-.panel-success{
-    border-color:#ebbba0;
+.panel-success {
+    border-color: #ebbba0;
 }
 
-#skills{
+.bgLightGray {
     background-color: #f7f7f7;
 }
 
-.panel-group{
+.bgWhite {
+    background-color: #ffffff;
+}
+
+.panel-group {
     width: 80%;
     margin: 18px auto;
 }
 
-
 /*  PORTFOLIO   */
 
-.popup-gallery{
+.popup-gallery {
     margin: 4rem auto;
 }
 
-
 /* FOOTER */
 
-
-footer{
+footer {
     background-color: #808990;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
-footer h4{
+
+footer ul{
+    list-style: none;
+}
+
+footer h4 {
     font-weight: 700;
 }
 
-footer p, footer h4{
+footer p, footer h4 {
     color: #4b5761;
 }
 
-.copyright{
+.copyright {
     text-align: center;
     color: #4b5761;
     border-top: solid 1px #bbbbbb;
@@ -537,13 +529,85 @@ footer p, footer h4{
 }
 
 
-footer a{
+
+footer a:link, footer a:visited  {
     color: #4b5761;
     text-decoration: none;
     cursor: pointer;
 }
 
-footer a:hover{
+footer a:hover, footer a:active, footer a:focus {
     color: #bbbbbb;
     text-decoration: none;
+}
+
+
+footer .fa{
+    color: #bbbbbb;
+}
+
+#readMoreText {
+    display: none;
+}
+
+.lightGray {
+    color: #a0a0a0;
+}
+
+footer .btn-link{
+    color:#4b5761;
+    font-size: 1rem;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+footer .btn-link:hover{
+    color:#bbbbbb;
+    text-decoration: none;
+}
+
+/* LATEST NEWS */
+
+.tweaked-margin {
+    margin-top: 2rem;
+}
+
+#blog h3 {
+    text-align: left;
+    margin: 0 0 10px 0;
+}
+
+#blog a {
+    color: #EBBBA0;
+}
+
+#blog a:hover {
+    color: #ebac88;
+}
+
+#blog article a {
+
+    text-decoration: none;
+    padding: 0;
+}
+
+.iconSpace {
+    padding: 0 0 0 0.5rem;
+    font-size: 0.8rem;
+}
+
+footer i{
+    vertical-align: middle;
+}
+
+footer ul{
+    padding: 0;
+    margin: 0;
+}
+
+footer .colorIcons {
+    color: #bbb;
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+    width: 28px;
+    display: inline-block;
 }

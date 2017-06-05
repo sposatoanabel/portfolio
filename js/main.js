@@ -15,4 +15,15 @@
                 tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
             }
         }); // magnificPopup function
+        $("#toggle").click(function () {
+
+                var readMoreTextElement = $(this).text();
+                if(readMoreTextElement == "Read More") {
+                    $(this).text("Read Less");
+                    $("#readMoreText").slideDown();
+                } else {
+                    $(this).text("Read More");
+                    $("#readMoreText").slideUp();
+                }
+        });
     }); // init
