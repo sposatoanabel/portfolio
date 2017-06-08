@@ -19,31 +19,35 @@
 </head>
 <body>
 <div id="wrapper">
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <div class="nav-header">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                        data-target="#navigationBar">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="#"><img src="imgs/sposato-logo.svg" alt=""></a>
-            </div><!--/nav header-->
-            <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" aria-expanded="false">
+                <a class="navbar-brand page-scroll" href="#page-top"><img src="imgs/sposato-logo.svg" alt=""></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navigationBar">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">About<span class="sr-only">(current)</span></a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#home">Home<span class="sr-only">(current)</span></a></li>
+                    <li><a href="#about">About<span class="sr-only">(current)</span></a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
-            </div><!-- /navbar-collapse -->
-        </div><!--/container-fluid-->
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
     </nav>
-    <header>
+
+    <header id="home">
         <div class="container">
             <h2>Hello</h2>
             <hr>
@@ -52,7 +56,7 @@
                 based in London, United Kingdom.</p>
             <div class="text-center">
                 <a href="mailto:sposatoanabel@gmail.com" class="btn btn-default btn-lg">Contact me</a>
-                <a href="#" class="btn btn-primary btn-lg">View Portfolio</a>
+                <a href="#portfolio" class="scrollToSection btn btn-primary btn-lg">View Portfolio</a>
             </div>
         </div>
     </header>
@@ -72,12 +76,13 @@
                             designing user interfaces, emails, landing page, websites, and building them in HTML and
                             CSS. Despite all, one year ago I decided to take further my coding skills, and I enrolled in
                             a Web Design career program. </p>
-                        <button class="btn btn-link" id="toggle">Read More</button>
+
                         <p id="readMoreText">I am a flexible person and enjoy working either independently or as a team
                             member.
                             I love working on different projects and analysing every visual and technical aspect for
                             every one of them. I always make sure to provide a high-quality work, fully responsive and
                             tested in a wide range of devices.</p>
+                        <a class="btn btn-link" id="toggle">Read More</a>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-3 col-md-offset-1 col-md-offset-1 col-lg-3">
                         <img src="imgs/my_picture.jpg" width="410" height="410" class="img-responsive img-circle"
@@ -106,9 +111,7 @@
                     <h3>Education</h3>
                     <hr class="grayUnderline">
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                        <div class="circle">
-                            <i class="fa fa-graduation-cap"></i>
-                        </div>
+                        <i class="fa fa-graduation-cap fa-2x"></i>
                         <h4>Secondary School</h4>
 
                         <p class="educationParagraph">In 2000, Anabel started the Secondary school and graduated with a
@@ -116,9 +119,7 @@
                         </p>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                        <div class="circle">
-                            <i class="fa fa-graduation-cap"></i>
-                        </div>
+                        <i class="fa fa-graduation-cap fa-2x"></i>
                         <h4>University</h4>
                         <p class="educationParagraph">In 2005, she started attending the University (UADE) in Buenos
                             Aires, Argentina. She got a degree in Graphic Design in 2010.
@@ -129,86 +130,82 @@
         </section>
         <section id="services" class="bgLightGray">
             <div class="container">
-            <h2>Services</h2>
-            <hr class="pink-line">
-            <div class="row tweaked-margin">
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-                    <div class="box">
-                        <div class="circle">
+                <h2>Services</h2>
+                <hr class="pink-line">
+                <div class="row tweaked-margin">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                        <div class="box">
                             <i class="fa fa-code fa-3x"></i>
+                            <h3>Responsive Website</h3>
+                            <p>Lorem ipsm dolor sit amet, consectetur adipisicing elit. Accusamus,
+                                assumenda consequatur cupiditate impedit itaque magni molestiae nostrum repudiandae
+                                sapiente?
+                                Deleniti dolor dolorum earum est maxime nam praesentium quos suscipit, vel.</p>
                         </div>
-                        <h3>Responsive Website</h3>
-                        <p>Lorem ipsm dolor sit amet, consectetur adipisicing elit. Accusamus,
-                            assumenda consequatur cupiditate impedit itaque magni molestiae nostrum repudiandae
-                            sapiente?
-                            Deleniti dolor dolorum earum est maxime nam praesentium quos suscipit, vel.</p>
-                    </div>
-                </div><!-- / first column-->
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-                    <div class="box">
-                        <div class="circle">
+                    </div><!-- / first column-->
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                        <div class="box">
                             <i class=" fa fa-code fa-3x"></i>
+                            <h3>Front-end Development</h3>
+                            <ul>
+                                <li>HTML/HTML5</li>
+                                <li>CSS3</li>
+                                <li>Javascript (jQuery)</li>
+                                <li>Frameworks: Bootstrap</li>
+                                <li>Sass</li>
+                                <li>Php(basic)</li>
+                                <li>Php(basic)</li>
+                            </ul>
                         </div>
-                        <h3>Front-end Development</h3>
-                        <ul>
-                            <li>HTML/HTML5</li>
-                            <li>CSS3</li>
-                            <li>Javascript (jQuery)</li>
-                            <li>Frameworks: Bootstrap</li>
-                            <li>Sass</li>
-                            <li>Php(basic)</li>
-                            <li>Php(basic)</li>
-                        </ul>
-                    </div>
-                </div><!-- / second column-->
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-                    <div class="box">
-                        <div class="circle">
-                            <i class="fa fa-diamond fa-3x"></i></div>
-                        <h3>Prototyping</h3>
-                        <p>I transform ideas into bespoken designs. I always think of designs that are possible to code.
-                            I would like to hightlight that I begin my journey creating a brainstorm of ideas, sketching
-                            them in paper and
-                            designing the in Photoshop or Sketch.
-                        </p>
-                    </div>
-                </div><!-- / third column-->
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-                    <div class="box">
-                        <div class="circle">
+                    </div><!-- / second column-->
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                        <div class="box">
+                            <i class="fa fa-diamond fa-3x"></i>
+                            <h3>Prototyping</h3>
+                            <p>I transform ideas into bespoken designs. I always think of designs that are possible to
+                                code.
+                                I would like to hightlight that I begin my journey creating a brainstorm of ideas,
+                                sketching
+                                them in paper and
+                                designing the in Photoshop or Sketch.
+                            </p>
+                        </div>
+                    </div><!-- / third column-->
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                        <div class="box">
                             <i class="fa fa-code fa-3x"></i>
+                            <h3>Wordpress Development</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
+                                assumenda, cum cumque dicta, doloribus eaque error fuga natus nesciunt numquam optio
+                                porro
+                                provident ratione reprehenderit sapiente soluta ullam, velit voluptate!</p>
                         </div>
-                        <h3>Wordpress Development</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
-                            assumenda, cum cumque dicta, doloribus eaque error fuga natus nesciunt numquam optio porro
-                            provident ratione reprehenderit sapiente soluta ullam, velit voluptate!</p>
-                    </div>
-                </div><!--/ fourth column-->
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-                    <div class="box">
-                        <div class="circle">
+                    </div><!--/ fourth column-->
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                        <div class="box">
                             <i class="d-inline fa fa-eye fa-3x"></i>
+                            <h3>Search engine optimisation</h3>
+                            <p> I transform ideas into bespoken designs. I always think of designs that are possible to
+                                code.
+                                I would like to hightlight that I begin my journey creating a brainstorm of ideas,
+                                sketching
+                                them in paper and
+                                designing the in Photoshop or Sketch.</p>
                         </div>
-                        <h3>Search engine optimisation</h3>
-                        <p> I transform ideas into bespoken designs. I always think of designs that are possible to code.
-                            I would like to hightlight that I begin my journey creating a brainstorm of ideas, sketching
-                            them in paper and
-                            designing the in Photoshop or Sketch.</p>
-                    </div>
-                </div><!-- / fith column-->
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-                    <div class="box">
-                        <div class="circle">
-                            <i class="fa fa-code fa-3x"></i></div>
-                        <h3>Web Design</h3>
-                        <p>I create wireframes focusing on content, hierarchies, UI design patterns, and interactions.
-                            It has to be emphasized that before designing I think about the user journey and how to
-                            create the best experience for them.  transform ideas into bespoken designs.
+                    </div><!-- / fith column-->
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                        <div class="box">
+                            <i class="fa fa-code fa-3x"></i>
+                            <h3>Web Design</h3>
+                            <p>I create wireframes focusing on content, hierarchies, UI design patterns, and
+                                interactions.
+                                It has to be emphasized that before designing I think about the user journey and how to
+                                create the best experience for them. transform ideas into bespoken designs.
 
-                        </p>
-                    </div>
-                </div><!-- / sixth column-->
-            </div><!--/ row-->
+                            </p>
+                        </div>
+                    </div><!-- / sixth column-->
+                </div><!--/ row-->
             </div>
         </section>
         <section id="skills">
@@ -280,86 +277,88 @@
                 </div><!--/ row-->
             </div><!--/ container-->
         </section>
-        <section id="portfolio" class="container">
-            <h2>Portfolio</h2>
-            <hr class="pink-line">
-            <div class="row popup-gallery">
-                <div class="col-lg-4 col-sm-6">
-                    <a href="imgs/portfolio/fullsize/fullsize-01.jpg" class="portfolio-boxSize">
-                        <img src="imgs/portfolio/thumbnail/thumbnail-01.jpg" alt="" class="imgResponsive">
-                        <div class="portfolioContainerDescription">
-                            <div class="portfolioDescription">
-                                <p class="category">Category</p>
-                                <p class="projectName">Project title</p>
-                                <p class="year">2017</p>
-                            </div><!--/ portfolioDescription-->
-                        </div><!--/ portfolioContainerDescription-->
-                    </a><!--/ portfolioContainerDescription-->
-                </div><!--/ col-->
-                <div class="col-lg-4 col-sm-6">
-                    <a href="imgs/portfolio/fullsize/fullsize-02.jpg" class="portfolio-boxSize">
-                        <img src="imgs/portfolio/thumbnail/thumbnail-02.jpg" alt="" class="imgResponsive">
-                        <div class="portfolioContainerDescription">
-                            <div class="portfolioDescription">
-                                <p class="category">Category</p>
-                                <p class="projectName">Project title</p>
-                                <p class="year">2017</p>
-                            </div><!--/ portfolioDescription-->
-                        </div><!---/ portfolioContainerDescription-->
-                    </a><!-- portfolioContainerDescription-->
-                </div><!--/ col-->
-                <div class="col-lg-4 col-sm-6">
-                    <a href="imgs/portfolio/fullsize/fullsize-03.jpg" class="portfolio-boxSize">
-                        <img src="imgs/portfolio/thumbnail/thumbnail-03.jpg" alt="" class="imgResponsive">
-                        <div class="portfolioContainerDescription">
-                            <div class="portfolioDescription">
-                                <p class="category">Category</p>
-                                <p class="projectName">Project title</p>
-                                <p class="year">2017</p>
-                            </div><!--/ portfolioDescription-->
-                        </div><!--/ portfolioContainerDescription-->
-                    </a><!--/ portfolio-boxSize-->
-                </div><!--/ col-->
-                <div class="col-lg-4 col-sm-6">
-                    <a href="imgs/portfolio/fullsize/fullsize-04.jpg" class="portfolio-boxSize">
-                        <img src="imgs/portfolio/thumbnail/thumbnail-04.jpg" alt="" class="imgResponsive">
-                        <div class="portfolioContainerDescription">
-                            <div class="portfolioDescription">
-                                <p class="category">Category</p>
-                                <p class="projectName">Project title</p>
-                                <p class="year">2017</p>
-                            </div><!--/ portfolioDescription-->
-                        </div><!--/ portfolioContainerDescription-->
-                    </a><!--/ portfolio-boxSize-->
-                </div><!--/ col-->
-                <div class="col-lg-4 col-sm-6">
-                    <a href="imgs/portfolio/fullsize/fullsize-05.jpg" class="portfolio-boxSize">
-                        <img src="imgs/portfolio/thumbnail/thumbnail-05.jpg" alt="" class="imgResponsive">
-                        <div class="portfolioContainerDescription">
-                            <div class="portfolioDescription">
-                                <p class="category">Category</p>
-                                <p class="projectName">Project title</p>
-                                <p class="year">2017</p>
-                            </div><!--/ portfolioDescription-->
-                        </div><!--/ portfolioContainerDescription-->
-                    </a><!--portfolio-boxSize-->
-                </div><!--/ col-->
-                <div class="col-lg-4 col-sm-6">
-                    <a href="imgs/portfolio/fullsize/fullsize-06.jpg" class="portfolio-boxSize">
-                        <img src="imgs/portfolio/thumbnail/thumbnail-06.jpg" alt="" class="imgResponsive">
-                        <div class="portfolioContainerDescription">
-                            <div class="portfolioDescription">
-                                <p class="category">Category</p>
-                                <p class="projectName">Project title</p>
-                                <p class="year">2017</p>
-                            </div><!--/portfolioDescription-->
-                        </div><!--/ portfolioContainerDescription-->
-                    </a><!--/ portfolio-boxSize-->
-                </div><!--/ col-->
+        <section id="portfolio" class="bgLightGray">
+            <div class="container">
+                <h2>Portfolio</h2>
+                <hr class="pink-line">
+                <div class="row popup-gallery">
+                    <div class="col-lg-4 col-sm-6">
+                        <a href="imgs/portfolio/fullsize/fullsize-01.jpg" class="portfolio-boxSize magnific item"  data-title="lorem">
+                            <img src="imgs/portfolio/thumbnail/thumbnail-01.jpg" alt="" class="imgResponsive">
+                            <div class="portfolioContainerDescription">
+                                <div class="portfolioDescription">
+                                    <p class="category">Category</p>
+                                    <p class="projectName">Project title</p>
+                                    <p class="year">2017</p>
+                                </div><!--/ portfolioDescription-->
+                            </div><!--/ portfolioContainerDescription-->
+                        </a><!--/ portfolioContainerDescription-->
+                    </div><!--/ col-->
+                    <div class="col-lg-4 col-sm-6">
+                        <a href="imgs/portfolio/fullsize/fullsize-02.jpg" class="portfolio-boxSize magnific item" data-title="lorem">
+                            <img src="imgs/portfolio/thumbnail/thumbnail-02.jpg" alt="" class="imgResponsive">
+                            <div class="portfolioContainerDescription">
+                                <div class="portfolioDescription">
+                                    <p class="category">Category</p>
+                                    <p class="projectName">Project title</p>
+                                    <p class="year">2017</p>
+                                </div><!--/ portfolioDescription-->
+                            </div><!---/ portfolioContainerDescription-->
+                        </a><!-- portfolioContainerDescription-->
+                    </div><!--/ col-->
+                    <div class="col-lg-4 col-sm-6">
+                        <a href="imgs/portfolio/fullsize/fullsize-03.jpg" class="portfolio-boxSize magnific item" data-title="lorem">
+                            <img src="imgs/portfolio/thumbnail/thumbnail-03.jpg" alt="" class="imgResponsive">
+                            <div class="portfolioContainerDescription">
+                                <div class="portfolioDescription">
+                                    <p class="category">Category</p>
+                                    <p class="projectName">Project title</p>
+                                    <p class="year">2017</p>
+                                </div><!--/ portfolioDescription-->
+                            </div><!--/ portfolioContainerDescription-->
+                        </a><!--/ portfolio-boxSize-->
+                    </div><!--/ col-->
+                    <div class="col-lg-4 col-sm-6">
+                        <a href="imgs/portfolio/fullsize/fullsize-04.jpg" class="portfolio-boxSize magnific item" data-title="lorem">
+                            <img src="imgs/portfolio/thumbnail/thumbnail-04.jpg" alt="" class="imgResponsive">
+                            <div class="portfolioContainerDescription">
+                                <div class="portfolioDescription">
+                                    <p class="category">Category</p>
+                                    <p class="projectName">Project title</p>
+                                    <p class="year">2017</p>
+                                </div><!--/ portfolioDescription-->
+                            </div><!--/ portfolioContainerDescription-->
+                        </a><!--/ portfolio-boxSize-->
+                    </div><!--/ col-->
+                    <div class="col-lg-4 col-sm-6">
+                        <a href="imgs/portfolio/fullsize/fullsize-05.jpg" class="portfolio-boxSize magnific item" data-title="lorem">
+                            <img src="imgs/portfolio/thumbnail/thumbnail-05.jpg" alt="" class="imgResponsive">
+                            <div class="portfolioContainerDescription">
+                                <div class="portfolioDescription">
+                                    <p class="category">Category</p>
+                                    <p class="projectName">Project title</p>
+                                    <p class="year">2017</p>
+                                </div><!--/ portfolioDescription-->
+                            </div><!--/ portfolioContainerDescription-->
+                        </a><!--portfolio-boxSize-->
+                    </div><!--/ col-->
+                    <div class="col-lg-4 col-sm-6">
+                        <a href="imgs/portfolio/fullsize/fullsize-06.jpg" class="portfolio-boxSize magnific item" data-title="lorem">
+                            <img src="imgs/portfolio/thumbnail/thumbnail-06.jpg" alt="" class="imgResponsive">
+                            <div class="portfolioContainerDescription">
+                                <div class="portfolioDescription">
+                                    <p class="category">Category</p>
+                                    <p class="projectName">Project title</p>
+                                    <p class="year">2017</p>
+                                </div><!--/portfolioDescription-->
+                            </div><!--/ portfolioContainerDescription-->
+                        </a><!--/ portfolio-boxSize-->
+                    </div><!--/ col-->
 
-            </div><!--/row-->
-            <div class="container text-center">
-                <a href="#" class="btn btn-default btn-lg">View more projects</a>
+                </div><!--/row-->
+                <div class="container text-center">
+                    <a href="#" class="btn btn-default btn-lg">View more projects</a>
+                </div>
             </div>
         </section>
         <section id="blog" class="container">
@@ -376,10 +375,10 @@
             <div id="myTabContent" class="tab-content">
                 <div class="tab-pane fade active in" id="html">
                     <article class="row  tweaked-margin">
-                        <div class="col-lg-4 col-m-12 col-sm-12">
-                            <img src="imgs/portfolio/thumbnail/thumbnail-04.jpg" class="img-responsive" alt="">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <img src="imgs/portfolio/thumbnail/thumbnail-04.jpg"  class="img-responsive center-block" alt="">
                         </div>
-                        <div class="col-lg-8 col-m-12 col-sm-12">
+                        <div class="col-lg-8 col-md-8 col-sm-12">
                             <h3>Web Design course</h3>
                             <p class="lightGray"><i class="fa fa-calendar"></i><span class="iconSpace">Posted Apr. 22, 2017</span>
                                 | <i class="fa fa-clock-o"></i><span
@@ -398,29 +397,51 @@
             </div>
         </section>
     </main>
-    <footer>
+    <footer id="contact">
         <div class="container">
             <div class="row">
                 <img src="imgs/sposato-logo.svg" class="center-block" alt="">
             </div>
             <div class="row">
-                <div class="col-lg-6 col-m-12 col-sm-12">
-
+                <div class="col-lg-4 col-md-4 col-sm-12">
                     <h4>Get in touch</h4>
                     <p>If you have a project in mind please feel free to contact me</p>
-                    <a href="mailto:sposatoanabel@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i>
+                    <a id="emailLink" href="mailto:sposatoanabel@gmail.com"><i class="fa fa-envelope-o"
+                                                                               aria-hidden="true"></i>
                         sposatoanabel@gmail.com</a>
                 </div>
-                <div class="col-lg-6 col-m-12 col-sm-12">
+                <div class="col-lg-4 col-md-4 col-sm-12" id="usefulLinks">
+
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><a href="work.html" target="_blank"><span class="colorIcons"><i
+                                class="fa fa-arrow-right fa-1x"></i></span>My work</a>
+                        </li>
+                        <li><a href="https://www.smashingmagazine.com/" target="_blank"><span class="colorIcons"><i
+                                class="fa fa-arrow-right fa-1x"></i></span>Smashing Magazine</a>
+                        </li>
+                        <li><a href="https://www.sposatoanabel.com/blog" target="_blank"><span
+                                class="colorIcons"><i class="fa fa-arrow-right fa-1x"></i></span>My Blog</a>
+                        </li>
+                        <li><a href="https://css-tricks.com/" target="_blank"><span class="colorIcons"><i
+                                class="fa fa-arrow-right fa-1x"></i></span>CSS Tricks</a></li>
+                        <li><a href="https://caniuse.com/" target="_blank"><span class="colorIcons"><i
+                                class="fa fa-arrow-right fa-1x"></i></span>Can I use</a></li>
+                        <li><a href="https://stackoverflow.com/" target="_blank"><span class="colorIcons"><i
+                                class="fa fa-arrow-right fa-1x"></i></span>Stack Overflow</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
                     <h4>Let's get social</h4>
                     <ul>
-                        <li> <a href="https://github.com/sposatoanabel/" target="_blank"><span class="colorIcons"><i class="fa fa-github fa-1x"></i></span>View my projects on GitHub</a>
+                        <li class="socialIcons"><a href="https://github.com/sposatoanabel" class="colorIcons"><i class="fa fa-github fa-1x"></i></a><a  id="github" href="https://github.com/sposatoanabel" target="_blank"> View my projects on GitHub</a>
                         </li>
-                        <li><a href="https://uk.linkedin.com/in/asposato/en" target="_blank"><span class="colorIcons"><i class="fa fa-linkedin fa-1x"></i></span> View my profile on LinkedIn</a>
+                        <li class="socialIcons"><a href="https://uk.linkedin.com/in/asposato/en" class="colorIcons"><i class="fa fa-linkedin fa-1x"></i></a> <a id="linkedin" href="https://uk.linkedin.com/in/asposato/en" target="_blank">View my profile on LinkedIn</a>
                         </li>
-                        <li> <a href="https://www.facebook.com/sposatoanabel/" target="_blank"><span class="colorIcons"><i class="fa fa-facebook fa-1x"></i></span>View sposatoanabel</a></li>
-                        <li> <a href="https://www.behance.net/asposato" target="_blank"><span class="colorIcons"><i class="fa fa-behance fa-1x"></i></span>Follow asposato</a></li>
-                        <li> <a href="https://twitter.com/sposatoanabel" target="_blank"><span class="colorIcons"><i class="fa fa-twitter fa-1x"></i></span>Follow @sposatoanabel</a></li>
+                        <li class="socialIcons"><a href="https://www.facebook.com/sposatoanabel" class="colorIcons"><i class="fa fa-facebook fa-1x"></i></a><a id="facebook" href="https://www.facebook.com/sposatoanabel" target="_blank">View sposatoanabel</a>
+                        </li>
+                        <li class="socialIcons"><a href="https://www.behance.net/asposato" class="colorIcons"><i class="fa fa-behance fa-1x"></i></a><a  id="behance" href="https://www.behance.net/asposato" target="_blank">Follow asposato</a></li>
+                        <li class="socialIcons"><a href="https://twitter.com/sposatoanabel" class="colorIcons"><i class="fa fa-twitter fa-1x"></i></a><a id="twitter" href="https://twitter.com/sposatoanabel" target="_blank">Follow @sposatoanabel</a></li>
                     </ul>
                 </div>
             </div><!--/row-->

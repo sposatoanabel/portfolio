@@ -70,8 +70,8 @@ h2 {
 }
 
 header {
-    background: linear-gradient(rgba(255, 255, 255, 0.8),
-    rgba(255, 255, 255, 0.8)),
+    background: linear-gradient(rgba(247, 247, 247, 0.8),
+    rgba(247, 247, 247, 0.8)),
     url('../imgs/geometric.svg') center center repeat #f7f7f7;
     width: 100%;
     background-size: 16%;
@@ -305,6 +305,14 @@ footer img {
     max-width: 250px;
 }
 
+nav .navbar-nav .navbar-right li a {
+    color: #bbbbbb;
+}
+
+nav .navbar-nav .navbar-right li a:hover {
+    color: #4b5761;
+}
+
 .navbar {
     margin-bottom: 0;
 }
@@ -324,14 +332,19 @@ footer img {
 }
 
 .navbar-default {
-    background-color: #fefefe;
+    background-color: #f7f7f7;
     border-color: #eeeeee;
 }
 
 @media (max-width: 767px) {
 
     .navbar-brand {
-        padding: 11px 15px;
+        padding: 16px 20px;
+    }
+
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border-color: #eeeeee;
+        padding: 20px;
     }
 
 }
@@ -343,7 +356,7 @@ footer img {
 ----------------------------------------*/
 
 hr.pink-line {
-    width: 3%;
+    width: 10%;
     border: 2px solid #EBBBA0;
     text-align: center;
 }
@@ -392,12 +405,15 @@ hr.grayUnderline {
     text-align: center;
     display: block;
     position: relative;
-    top: 17px;
+    color: #808990;
+    padding-top: 2rem;
+
 }
 
 #about h4 {
     text-align: center;
     margin: 20px 0;
+    color: #808990;
 }
 
 .educationParagraph {
@@ -427,7 +443,6 @@ hr.grayUnderline {
 #services h3, #services p {
     color: #808990;
 }
-
 
 .box {
     background-color: #ffffff;
@@ -506,8 +521,7 @@ footer {
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
-
-footer ul{
+footer ul {
     list-style: none;
 }
 
@@ -528,9 +542,7 @@ footer p, footer h4 {
     width: 100%;
 }
 
-
-
-footer a:link, footer a:visited  {
+footer a:link, footer a:visited {
     color: #4b5761;
     text-decoration: none;
     cursor: pointer;
@@ -541,8 +553,7 @@ footer a:hover, footer a:active, footer a:focus {
     text-decoration: none;
 }
 
-
-footer .fa{
+footer .fa {
     color: #bbbbbb;
 }
 
@@ -554,14 +565,14 @@ footer .fa{
     color: #a0a0a0;
 }
 
-footer .btn-link{
-    color:#4b5761;
+footer .btn-link {
+    color: #4b5761;
     font-size: 1rem;
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
-footer .btn-link:hover{
-    color:#bbbbbb;
+footer .btn-link:hover {
+    color: #bbbbbb;
     text-decoration: none;
 }
 
@@ -595,19 +606,603 @@ footer .btn-link:hover{
     font-size: 0.8rem;
 }
 
-footer i{
+footer i {
     vertical-align: middle;
 }
 
-footer ul{
+footer ul {
     padding: 0;
     margin: 0;
+    text-align: left;
 }
 
 footer .colorIcons {
     color: #bbb;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     margin-right: 0.5rem;
     width: 28px;
     display: inline-block;
+    line-height: 1.8rem;
+}
+
+footer img {
+    margin-bottom: 4rem;
+}
+
+#emailLink {
+    color: #ebbba0;
+    padding: 1rem 0;
+    font-size: 1.2em;
+}
+
+#emailLink:hover {
+    color: #ebac88;
+}
+
+#emailLink i {
+    font-size: 1.5rem;
+    color: #ebbba0;
+}
+
+#about .btn-link {
+    color: #EBBBA0;
+    padding: 0;
+}
+
+#about .btn-link:hover {
+    color: #ebbba0;
+    text-decoration: none;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #EBBBA0;
+    background-color: transparent;
+}
+
+@media (max-width: 767px) {
+    .navbar-nav {
+        margin: 7.5px -15px;
+    }
+
+    .nav > li > a {
+        position: relative;
+        display: block;
+        padding: 10px 15px;
+        width: 100%;
+    }
+
+}
+
+#usefulLinks{
+    display: block;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #EBBBA0;
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 380px) {
+
+    .copyright {
+        width: 80%;
+        margin: 30px auto 0 auto;
+    }
+
+    footer img {
+        margin-bottom: 2rem;
+    }
+
+    #skills .lead{
+        width: 100%;
+    }
+
+    .commas {
+        font-size: 3rem;
+    }
+
+    #services ul {
+        list-style: none;
+        text-align: center;
+        padding: 0 0 0 0;
+    }
+
+    #services p {
+        color: #808990;
+        text-align: center;
+    }
+
+    #services h3 {
+        padding: 0 0 0 0;
+        margin: 40px 0 20px 0;
+        line-height: 2rem;
+        text-align: center;
+
+    }
+
+    section, footer {
+        padding: 40px 0;
+    }
+
+    footer ul {
+        text-align: center;
+    }
+
+    #linkedin,
+    #behance,
+    #facebook,
+    #twitter,
+    #github {
+        display: none;
+    }
+
+    .socialIcons {
+        display: inline-block;
+        margin: 0 auto;
+        max-width: 992px;
+    }
+
+    #usefulLinks {
+        display: none;
+    }
+
+    footer p, footer h4 {
+        text-align: center;
+        padding: 0.5rem 0;
+    }
+
+    footer .socialIcons i {
+        font-size: 1.4rem;
+    }
+
+    footer a:link, footer a:visited {
+        text-align: center;
+        display: block;
+    }
+
+    /* SECTION HOME */
+    h1 {
+        font-size: 3rem;
+        line-height: 3.8rem;
+        margin-top: 9px;
+        margin-bottom: 9px;
+    }
+
+    header h2 {
+        font-size: 1.8rem;
+    }
+
+    header .lead {
+        padding: 20px 0;
+        max-width: 90%;
+        font-size: 1rem;
+    }
+
+    header a:first-child {
+        margin-right: 6%;
+    }
+
+    /* SECTION ABOUT */
+    #about h3 {
+        text-align: left;
+        margin-top: 3rem;
+    }
+
+    .lead {
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+    }
+
+    #about p {
+        line-height: 1.8rem;
+
+    }
+
+    #about img {
+        display: none;
+    }
+
+    #about .btn-link {
+        font-size: 1rem;
+    }
+
+    /* SECTION SKILLS */
+    .panel-group {
+        width: 100%;
+    }
+
+    /* SECTION BLOG */
+    #blog .nav-tabs {
+        border-bottom: 1px solid #ffffff;
+    }
+
+    #blog .nav > li > a {
+        position: relative;
+        display: block;
+        padding: 10px 35px;
+        width: 100%;
+        border: 1px solid #bbbbbb;
+        margin: 4px;
+    }
+
+    #blog .nav-tabs > li > a {
+        margin-right: 2px;
+        line-height: 1.42857143;
+        border: 1px solid #bbbbbb;
+        border-radius: 4px;
+    }
+
+    #blog .nav-tabs > li.active > a,
+    #blog .nav-tabs > li.active > a:hover,
+    #blog .nav-tabs > li.active > a:focus {
+        color: #777777;
+        background-color: #fcfcfc;
+        border: 3px solid #ebbba0;
+        cursor: default;
+    }
+
+    #blog h3 {
+        text-align: center;
+        margin: 30px 0 10px 0;
+    }
+
+    #blog p {
+        text-align: center;
+    }
+
+    #blog a {
+        display: block;
+        margin: 0 auto;
+        font-size: 1.0rem;
+    }
+
+    #usefulLinks {
+        display: none;
+    }
+
+
+    .popup-gallery{
+        margin: 2rem auto;
+    }
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+
+    footer ul {
+        text-align: center;
+    }
+
+    #linkedin,
+    #behance,
+    #facebook,
+    #twitter,
+    #github {
+        display: none;
+    }
+
+    .socialIcons {
+        display: inline-block;
+        margin: 0 auto;
+        max-width: 992px;
+    }
+
+    #usefulLinks {
+        display: none;
+    }
+
+    footer p, footer h4 {
+        text-align: center;
+        padding: 0.5rem 0;
+    }
+
+    footer .socialIcons i {
+        font-size: 1.4rem;
+    }
+
+    footer a:link, footer a:visited {
+        text-align: center;
+        display: block;
+    }
+
+    /* SECTION HOME */
+    h1 {
+        font-size: 3rem;
+        line-height: 3.8rem;
+        margin-top: 9px;
+        margin-bottom: 9px;
+    }
+
+    header h2 {
+        font-size: 1.8rem;
+    }
+
+    header .lead {
+        padding: 20px 0;
+        max-width: 90%;
+        font-size: 1rem;
+    }
+
+    header a:first-child {
+        margin-right: 6%;
+    }
+
+    /* SECTION ABOUT */
+    #about h3 {
+        text-align: center;
+        margin-top: 3rem;
+    }
+
+    .lead {
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+    }
+
+    #about p {
+        line-height: 1.8rem;
+    }
+
+    #about img {
+        margin: 2rem auto;
+        max-width: 50%;
+    }
+
+    #about .btn-link {
+        font-size: 1rem;
+    }
+
+    /* SECTION SKILLS */
+    .panel-group {
+        width: 100%;
+    }
+
+    /* SECTION BLOG */
+    #blog .nav-tabs {
+        border-bottom: 1px solid #ffffff;
+    }
+
+    #blog .nav > li > a {
+        position: relative;
+        display: block;
+        padding: 15px 50px;
+        width: 100%;
+        border: 1px solid #bbbbbb;
+        margin: 4px;
+    }
+
+    #blog .nav-tabs > li > a {
+        margin-right: 2px;
+        line-height: 1.42857143;
+        border: 1px solid #bbbbbb;
+        border-radius: 4px;
+    }
+
+    #blog .nav-tabs > li.active > a,
+    #blog .nav-tabs > li.active > a:hover,
+    #blog .nav-tabs > li.active > a:focus {
+        color: #777777;
+        background-color: #fcfcfc;
+        border: 3px solid #ebbba0;
+        cursor: default;
+    }
+
+    #blog h3 {
+        text-align: center;
+        margin: 30px 0 10px 0;
+    }
+
+    #blog p {
+        text-align: center;
+    }
+
+    #blog a {
+        display: block;
+        margin: 0 auto;
+        font-size: 1.0rem;
+    }
+
+    #usefulLinks {
+        display: none;
+    }
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+
+    #usefulLinks{
+        display: none;
+    }
+
+    #about img {
+        margin: 0 auto;
+        max-width: 40%;
+    }
+
+    footer a:link, footer a:visited {
+        text-align: center;
+        display: inline-block;
+    }
+
+    #blog .nav-tabs > li {
+        margin: 9px 4px 0 0;
+    }
+
+    footer p, footer h4 {
+        text-align: center;
+        padding: 0.5rem 0;
+    }
+
+    #linkedin,
+    #behance,
+    #facebook,
+    #twitter,
+    #github {
+        display: none;
+    }
+
+    .socialIcons {
+        display: inline-block;
+        margin: 0 auto;
+        max-width: 992px;
+    }
+
+    footer .socialIcons i {
+        font-size: 1.4rem;
+    }
+
+    footer a:link, footer a:visited {
+        text-align: center;
+        display: block;
+    }
+
+    footer ul {
+        text-align: center;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+    #usefulLinks{
+        display: block;
+    }
+
+    #about img {
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+    #linkedin,
+    #behance,
+    #facebook,
+    #twitter,
+    #github {
+        display: inline-block;
+    }
+
+    footer .socialIcons {
+        display: block;
+    }
+
+    footer .socialIcons i {
+        font-size: 1.2rem;
+        padding: 0;
+    }
+
+    footer a:link, footer a:visited {
+        text-align: left;
+        display: inline-block;
+    }
+
+    footer p, footer h4 {
+        text-align: left;
+    }
+
+    #blog .nav-tabs > li > a:hover {
+        background-color: transparent;
+        color: #808990;
+    }
+
+    #blog .nav-tabs > li > a {
+        margin-right: 2px;
+        line-height: 1.42857143;
+        border: 1px solid transparent;
+        border-radius: 4px 4px 0 0;
+    }
+
+    #blog .nav-tabs > li {
+        margin: 9px 3px 0 0;
+    }
+
+    #blog .nav-tabs > li.active > a, #blog .nav-tabs > li.active > a:hover, #blog .nav-tabs > li.active > a:focus {
+        color: #777777;
+        background-color: #fcfcfc;
+        border: 1px solid #dddddd;
+        border-bottom-color: transparent;
+        cursor: default;
+    }
+
+    #blog .nav-tabs {
+        border-bottom: 1px solid #dddddd;
+    }
+
+    #blog .nav-tabs > li {
+        margin-bottom: -4px;
+    }
+
+    #blog h3 {
+        text-align: left;
+        margin: 0 0 10px 0;
+    }
+
+    footer ul {
+        text-align: left;
+    }
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+    #usefulLinks{
+        display: block;
+    }
+
+    footer ul{
+        display: block;
+    }
+
+    .copyright {
+        text-align: center;
+        padding-top: 30px;
+        margin-top: 30px;
+        width: 100%;
+    }
+    #blog .nav-tabs > li.active > a, #blog .nav-tabs > li.active > a:hover, #blog .nav-tabs > li.active > a:focus {
+        color: #777777;
+        background-color: #fcfcfc;
+        border: 1px solid #dddddd;
+        border-bottom-color: transparent;
+        cursor: default;
+    }
+
+    #blog .nav-tabs > li > a {
+        margin-right: 2px;
+        line-height: 1.42857143;
+        border: 1px solid transparent;
+        border-radius: 4px 4px 0 0;
+    }
+
+    #blog .nav-tabs {
+        border-bottom: 1px solid #dddddd;
+    }
+
+    #blog .nav-tabs > li {
+        margin-bottom: -4px;
+    }
+
+    #blog h3 {
+        text-align: left;
+        margin: 0 0 10px 0;
+    }
+
+    #blog p {
+        text-align: left;
+    }
+
+    #about img {
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+    #blog a {
+        display: inline;
+        margin: 0;
+        font-size: 1.0rem;
+    }
+
 }
