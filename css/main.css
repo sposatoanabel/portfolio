@@ -70,16 +70,7 @@ h2 {
 }
 
 header {
-    background: linear-gradient(rgba(247, 247, 247, 0.8),
-    rgba(247, 247, 247, 0.8)),
-    url('../imgs/geometric.svg') center center repeat #f7f7f7;
-    width: 100%;
-    background-size: 16%;
-    background-attachment: scroll;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
 }
 
 header h2 {
@@ -104,6 +95,23 @@ header hr {
 
 }
 
+.heroImg{
+    background: linear-gradient(rgba(247, 247, 247, 0.8),
+    rgba(247, 247, 247, 0.8)),
+    url('../imgs/geometric.svg') center center repeat #f7f7f7;
+    width: 100%;
+    background-size: 16%;
+    background-attachment: scroll;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.breadcrumbWrapper {
+    position: relative;
+    top: 82px;
+}
 /*------------------------------
 
     BUTTONS
@@ -688,6 +696,8 @@ footer img {
 /* Extra Small Devices, Phones */
 @media only screen and (min-width: 380px) {
 
+    /* FOOTER */
+
     .copyright {
         width: 80%;
         margin: 30px auto 0 auto;
@@ -765,6 +775,7 @@ footer img {
     }
 
     /* SECTION HOME */
+
     h1 {
         font-size: 3rem;
         line-height: 3.8rem;
@@ -787,6 +798,7 @@ footer img {
     }
 
     /* SECTION ABOUT */
+
     #about h3 {
         text-align: left;
         margin-top: 3rem;
@@ -832,16 +844,15 @@ footer img {
     #blog .nav-tabs > li > a {
         margin-right: 2px;
         line-height: 1.42857143;
-        border: 1px solid #bbbbbb;
-        border-radius: 4px;
+        border: 1px solid  #e0e0e0;
+        border-radius: 2px;
     }
 
     #blog .nav-tabs > li.active > a,
     #blog .nav-tabs > li.active > a:hover,
     #blog .nav-tabs > li.active > a:focus {
         color: #777777;
-        background-color: #fcfcfc;
-        border: 3px solid #ebbba0;
+        border: 2px solid #ebbba0;
         cursor: default;
     }
 
@@ -874,43 +885,8 @@ footer img {
 /* Extra Small Devices, Phones */
 @media only screen and (min-width: 480px) {
 
-    footer ul {
-        text-align: center;
-    }
-
-    #linkedin,
-    #behance,
-    #facebook,
-    #twitter,
-    #github {
-        display: none;
-    }
-
-    .socialIcons {
-        display: inline-block;
-        margin: 0 auto;
-        max-width: 992px;
-    }
-
-    #usefulLinks {
-        display: none;
-    }
-
-    footer p, footer h4 {
-        text-align: center;
-        padding: 0.5rem 0;
-    }
-
-    footer .socialIcons i {
-        font-size: 1.4rem;
-    }
-
-    footer a:link, footer a:visited {
-        text-align: center;
-        display: block;
-    }
-
     /* SECTION HOME */
+
     h1 {
         font-size: 3rem;
         line-height: 3.8rem;
@@ -933,6 +909,7 @@ footer img {
     }
 
     /* SECTION ABOUT */
+
     #about h3 {
         text-align: center;
         margin-top: 3rem;
@@ -957,11 +934,13 @@ footer img {
     }
 
     /* SECTION SKILLS */
+
     .panel-group {
         width: 100%;
     }
 
     /* SECTION BLOG */
+
     #blog .nav-tabs {
         border-bottom: 1px solid #ffffff;
     }
@@ -978,8 +957,8 @@ footer img {
     #blog .nav-tabs > li > a {
         margin-right: 2px;
         line-height: 1.42857143;
-        border: 1px solid #bbbbbb;
-        border-radius: 4px;
+        border: 1px solid #e0e0e0;
+        border-radius: 2px;
     }
 
     #blog .nav-tabs > li.active > a,
@@ -1006,6 +985,40 @@ footer img {
         font-size: 1.0rem;
     }
 
+    /* SECTION FOOTER */
+
+    footer ul {
+        text-align: center;
+    }
+
+    footer p, footer h4 {
+        text-align: center;
+        padding: 0.5rem 0;
+    }
+
+    footer .socialIcons i {
+        font-size: 1.4rem;
+    }
+
+    footer a:link, footer a:visited {
+        text-align: center;
+        display: block;
+    }
+
+    #linkedin,
+    #behance,
+    #facebook,
+    #twitter,
+    #github {
+        display: none;
+    }
+
+    .socialIcons {
+        display: inline-block;
+        margin: 0 auto;
+        max-width: 992px;
+    }
+
     #usefulLinks {
         display: none;
     }
@@ -1015,13 +1028,10 @@ footer img {
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
 
+    /* SECTION FOOTER */
+
     #usefulLinks{
         display: none;
-    }
-
-    #about img {
-        margin: 0 auto;
-        max-width: 40%;
     }
 
     footer a:link, footer a:visited {
@@ -1064,44 +1074,28 @@ footer img {
     footer ul {
         text-align: center;
     }
+
+    /* SECTION ABOUT */
+
+    #about img {
+        margin: 0 auto;
+        max-width: 40%;
+    }
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) {
-    #usefulLinks{
-        display: block;
-    }
+
+
+    /* SECTION ABOUT */
 
     #about img {
         margin: 0 auto;
         max-width: 100%;
-    }
-
-    #linkedin,
-    #behance,
-    #facebook,
-    #twitter,
-    #github {
-        display: inline-block;
-    }
-
-    footer .socialIcons {
         display: block;
     }
 
-    footer .socialIcons i {
-        font-size: 1.2rem;
-        padding: 0;
-    }
-
-    footer a:link, footer a:visited {
-        text-align: left;
-        display: inline-block;
-    }
-
-    footer p, footer h4 {
-        text-align: left;
-    }
+    /* SECTION BLOG */
 
     #blog .nav-tabs > li > a:hover {
         background-color: transparent;
@@ -1140,6 +1134,38 @@ footer img {
         margin: 0 0 10px 0;
     }
 
+    /* SECTION FOOTER */
+
+    #linkedin,
+    #behance,
+    #facebook,
+    #twitter,
+    #github {
+        display: inline-block;
+    }
+
+    footer .socialIcons {
+        display: block;
+    }
+
+    footer .socialIcons i {
+        font-size: 1.2rem;
+        padding: 0;
+    }
+
+    footer a:link, footer a:visited {
+        text-align: left;
+        display: inline-block;
+    }
+
+    footer p, footer h4 {
+        text-align: left;
+    }
+
+    #usefulLinks{
+        display: block;
+    }
+
     footer ul {
         text-align: left;
     }
@@ -1148,20 +1174,18 @@ footer img {
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width: 1200px) {
-    #usefulLinks{
+
+
+    /* SECTION ABOUT */
+
+    #about img {
+        margin: 0 auto;
+        max-width: 100%;
         display: block;
     }
 
-    footer ul{
-        display: block;
-    }
+    /* SECTION BLOG */
 
-    .copyright {
-        text-align: center;
-        padding-top: 30px;
-        margin-top: 30px;
-        width: 100%;
-    }
     #blog .nav-tabs > li.active > a, #blog .nav-tabs > li.active > a:hover, #blog .nav-tabs > li.active > a:focus {
         color: #777777;
         background-color: #fcfcfc;
@@ -1194,15 +1218,77 @@ footer img {
         text-align: left;
     }
 
-    #about img {
-        margin: 0 auto;
-        max-width: 100%;
-    }
-
     #blog a {
         display: inline;
         margin: 0;
         font-size: 1.0rem;
     }
 
+    /* SECTION FOOTER */
+
+    #usefulLinks{
+        display: block;
+    }
+
+    footer ul{
+        display: block;
+    }
+
+    .copyright {
+        text-align: center;
+        padding-top: 30px;
+        margin-top: 30px;
+        width: 100%;
+    }
+
+}
+
+/*---------------------------------
+
+WORK
+
+-----------------------------------*/
+
+.portfolio
+{
+    margin: 48px 0;
+}
+
+.portfolio-sorting
+{
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: 48px;
+}
+
+.portfolio-sorting li a
+{
+    color: #808080;
+    text-decoration: none;
+    padding: 6px;
+}
+.portfolio-sorting li a:hover,
+.portfolio-sorting li a.active
+{
+    color: #2980b9;
+    border-bottom: 2px solid #2980b9;
+}
+
+.portfolio-item
+{
+    margin-bottom: 30px;
+}
+
+
+figure {
+    margin: 1em 2px;
+}
+
+
+
+.bannerFullHeight{
+    height: 100vh;
+}
+.bannerHalfHeight{
+    height: 50vh;
 }
