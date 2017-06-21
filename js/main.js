@@ -1,21 +1,16 @@
 $(document).ready(function () {
-// Initialize and Configure Magnific Popup Lightbox Plugin
-    /*$('.popup-gallery').magnificPopup({
-     delegate: 'a',
-     type: 'image',
-     tLoading: 'Loading image #%curr%...',
-     mainClass: 'mfp-img-mobile',
-     gallery: {
-     enabled: true,
-     navigateByImgClick: true,
-     preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
-     },
-     image: {
-     tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
-     }
-     }); // magnificPopup function
-     */
 
+    // scrollspy nav
+
+    $('body').scrollspy({target: '#navbar-example'});
+
+    // carousel
+
+    $('.carousel').carousel({
+        interval: 2000
+    });
+
+    // pop up gallery
 
     $('.popup-gallery').each(function () {
         var $container = $(this);
@@ -76,6 +71,7 @@ $(document).ready(function () {
 
 
     // read more link
+
     $("#toggle").click(function () {
 
         var readMoreTextElement = $(this).text();
@@ -88,10 +84,9 @@ $(document).ready(function () {
         }
     });
 
-    // Add scrollspy to <body>
-    $('body').scrollspy({target: ".navbar ", offset: 50});
 
     // Add smooth scrolling on all links inside the navbar
+
     $("#navigationBar a").on('click', function (e) {
         // Make sure this.hash has a value before overriding default behavior
         if (this.hash !== "") {

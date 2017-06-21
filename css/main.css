@@ -42,6 +42,10 @@ body {
     background: #ffffff;
 }
 
+body{
+    position: relative;
+}
+
 .navbar-nav {
     margin: 34.5px -15px;
 }
@@ -1267,12 +1271,7 @@ WORK
     text-decoration: none;
     padding: 6px;
 }
-.portfolio-sorting li a:hover,
-.portfolio-sorting li a.active
-{
-    color: #2980b9;
-    border-bottom: 2px solid #2980b9;
-}
+
 
 .portfolio-item
 {
@@ -1291,4 +1290,95 @@ figure {
 }
 .bannerHalfHeight{
     height: 50vh;
+}
+
+
+.portfolio-sorting.nav-tabs > li a{
+    position: relative;
+    display: block;
+    padding: 15px 50px;
+    width: 100%;
+    border: 1px solid #bbbbbb;
+    margin: 4px;
+}
+
+.portfolio-sorting.nav-tabs > li, .portfolio-sorting.nav-pills > li{
+    float: none;
+    display: inline-block;
+    zoom: 1;
+}
+
+.portfolio-sorting.nav-tabs > li.active > a,
+.portfolio-sorting.nav-tabs > li.active > a:hover,
+.portfolio-sorting.nav-tabs > li.active > a:focus{
+    color: #777777;
+    background-color: #fcfcfc;
+    border: 3px solid #ebbba0;
+    cursor: default;
+
+}
+
+
+.portfolio-sorting.nav-tabs li{
+    margin-bottom: 12px;
+}
+
+.portfolio-sorting.nav-tabs>li>a{
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid #e0e0e0;
+    border-radius: 2px;
+}
+.portfolio-sorting.nav-tabs{
+    border-bottom: 1px solid #ffffff;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #ffffff;
+}
+
+.myProjects:hover .overlay {
+    opacity: 0.7;
+}
+
+.myProjects:hover .projectDescription, .myProjects:hover .workCategory {
+    opacity: 1;
+}
+
+.projectDescription {
+    color: #343434;
+    font-size: 1.5rem;
+    top: 50%;
+    font-weight: 700;
+    line-height: 2.5rem;
+}
+
+.projectDescription, .workCategory {
+    position: absolute;
+    opacity: 0;
+    z-index: 333;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    left: 50%;
+}
+
+.workCategory {
+    font-size: 1rem;
+    color: #556270;
+    padding-top: 1rem;
+    top: 60%;
+}
+
+.carousel-control.right, .carousel-control.left{
+    background-image: none;
 }
