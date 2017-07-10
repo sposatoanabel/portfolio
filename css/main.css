@@ -116,6 +116,11 @@ header hr {
     position: relative;
     top: 82px;
 }
+
+.breadcrumb{
+    padding: 8px 0;
+}
+
 /*------------------------------
 
     BUTTONS
@@ -1381,4 +1386,33 @@ figure {
 
 .carousel-control.right, .carousel-control.left{
     background-image: none;
+}
+
+
+/*------------------------------------------------------
+
+    PROJECT SECTION
+
+--------------------------------------------------------*/
+
+.projectTitle{
+    text-align: left;
+    font-size: 0.9rem;
+    letter-spacing: 0.2rem;
+    font-weight: 500;
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 1rem;
+}
+
+.projectInfo{
+    font-weight: 200;
+    color: rgb(137, 137, 137);
+}
+
+#myCarousel{
+    margin-bottom: 2rem;
+}
+
+.imageSpace{
+    padding: 5rem 0;
 }
