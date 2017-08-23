@@ -418,9 +418,7 @@ section, footer {
     margin-bottom: 20px;
 }
 
-hr.grayUnderline {
-    margin: 20px;
-}
+
 
 .circle {
     border-radius: 50%;
@@ -445,10 +443,15 @@ hr.grayUnderline {
     font-size: 20px;
     color: #4ecdc4;
     font-weight: 600;
+    line-height: 2rem;
 }
 
 .educationParagraph {
     text-align: center;
+}
+
+#about .row .columnMargin{
+    margin: 30px auto;
 }
 
 /*-------------------------
@@ -459,20 +462,16 @@ hr.grayUnderline {
 
 #services h3 {
     padding: 0 10px 0 5px;
-    margin: 40px 0 20px 0;
+    margin: 15px 0 20px 0;
     line-height: 2rem;
+    font-weight: 600;
 }
 
-#services i {
-    color: #EBBBA0;
-    text-align: center;
-    display: block;
-    position: relative;
-    top: 17px;
-}
+
 
 #services h3, #services p {
-    color: #808990;
+    color: #22223a;
+
 }
 
 .box {
@@ -490,6 +489,14 @@ hr.grayUnderline {
     margin: 16px auto;
 }
 
+
+.fa-stack{
+    position: static;
+}
+
+.text-primary{
+    color:#4ecdc4;
+}
 /*-------------------------
 
      SKILLS
@@ -588,7 +595,7 @@ footer .fa {
     color: #bbbbbb;
 }
 
-#readMoreText {
+.readMoreText {
     display: none;
 }
 
@@ -746,12 +753,12 @@ footer img {
 
     #services p {
         color: #808990;
-        text-align: center;
+        line-height: 1.8rem;
     }
 
     #services h3 {
         padding: 0 0 0 0;
-        margin: 40px 0 20px 0;
+        margin: 15px 0 20px 0;
         line-height: 2rem;
         text-align: center;
 
@@ -825,6 +832,9 @@ footer img {
     #about h3 {
         text-align: left;
         margin-top: 3rem;
+        font-weight: 600;
+        color: #222222;
+        font-size: 22px;
     }
 
     .lead {
@@ -938,7 +948,7 @@ footer img {
     /* SECTION ABOUT */
 
     #about h3 {
-        text-align: center;
+        text-align: left;
         margin-top: 3rem;
     }
 
@@ -1110,7 +1120,7 @@ footer img {
     }
 
     #about img{
-        margin: 38px auto;
+        width: 100%;
 
     }
 }
@@ -1219,7 +1229,7 @@ footer img {
     }
 
     #about img{
-        margin: 38px auto;
+        width: 100%;
     }
 
     /* SECTION BLOG */
@@ -1420,16 +1430,6 @@ figure {
 
 
 
-#portfolioProjects .portfolio-item .portfolio-link .portfolio-hover {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-transition: all ease .5s;
-    -moz-transition: all ease .5s;
-    transition: all ease .5s;
-    opacity: 0;
-    background: rgba(254,209,54,.9);
-}
 
 #portfolioProjects .portfolio-item .portfolio-link {
     position: relative;
@@ -1446,6 +1446,10 @@ figure {
 
 #portfolioProjects * {
     z-index: 2;
+}
+
+#portfolioProjects h4{
+    font-weight: 600;
 }
 
 .img-fluid {
@@ -1549,7 +1553,7 @@ figure {
 }
 
 #portfolioProjects .portfolio-item .portfolio-link .portfolio-hover{
-    background: rgba(254,209,54,.9);
+    background: rgba(78, 205, 196, 0.8);
     position: absolute;
     width: 100%;
     height: 100%;

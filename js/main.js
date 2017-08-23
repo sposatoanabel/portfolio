@@ -72,16 +72,17 @@ $(document).ready(function () {
 
     // read more link
 
-    $("#toggle").click(function () {
+    $(".toggle").click(function (e) {
 
-        var readMoreTextElement = $(this).text();
-        if (readMoreTextElement == "Read More") {
-            $(this).text("Read Less");
-            $("#readMoreText").slideDown();
+        var readMoreElement = $(this);
+        if (readMoreElement.text() === "Read More") {
+            readMoreElement.text("Read Less");
+            readMoreElement.siblings(".readMoreText").slideDown();
         } else {
-            $(this).text("Read More");
-            $("#readMoreText").slideUp();
+            readMoreElement.text("Read More");
+            readMoreElement.siblings(".readMoreText").slideUp();
         }
+        e.preventDefault();
     });
 
 
