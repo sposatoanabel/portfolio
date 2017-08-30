@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 178 118" style="enable-background:new 0 0 178 118;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill:#FAFCFC;}
+	
+		.st2{opacity:0.31;fill:none;stroke:#BEEDE8;stroke-width:0.5147;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st3{opacity:0.31;}
+	.st4{fill:none;stroke:#BEEDE8;stroke-width:0.5147;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st5{opacity:0.31;fill:none;stroke:#BEEDE8;stroke-width:0.5147;stroke-miterlimit:10;}
+	.st6{opacity:0.31;fill:none;stroke:#BEEDE8;stroke-width:0.3445;stroke-miterlimit:10;}
+	
+		.st7{opacity:0.31;fill:none;stroke:#BEEDE8;stroke-width:0.4575;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st8{opacity:0.31;fill:#BEEDE8;}
+	.st9{fill:url(#SVGID_1_);}
+	.st10{fill:#FAFCFC;stroke:#BEEDE8;stroke-width:0.7057;stroke-miterlimit:10;stroke-dasharray:0.7057,0,0.7057;}
+	.st11{fill:#BEEDE8;}
+	.st12{fill:none;stroke:#FFFFFF;stroke-width:2.8228;stroke-miterlimit:10;}
+	.st13{fill:none;stroke:#4ECDC4;stroke-width:1.0585;stroke-miterlimit:10;}
+	.st14{fill:#FFFFFF;stroke:#4ECDC4;stroke-width:1.0585;stroke-miterlimit:10;}
+</style>
+<pattern  x="233.4" y="295.8" width="35" height="35" patternUnits="userSpaceOnUse" id="New_Pattern_Swatch_6" viewBox="0 -35 35 35" style="overflow:visible;">
+	<g>
+		<rect y="-35" class="st0" width="35" height="35"/>
+		<rect y="-35" class="st1" width="35" height="35"/>
+		<circle class="st2" cx="6.7" cy="-4.1" r="1.3"/>
+		<circle class="st2" cx="10.3" cy="-30.4" r="1.3"/>
+		<circle class="st2" cx="18.8" cy="-4.4" r="1"/>
+		<g class="st3">
+			<path class="st4" d="M14-10.1c1.1-0.8,2.3,0.9,3.4,0.1c1.1-0.8,0-2.5,1.1-3.3c1.1-0.8,2.3,0.9,3.4,0.1c1.1-0.8,0-2.5,1.1-3.3
+				c1.1-0.8,2.3,0.9,3.4,0.1c1.1-0.8,0-2.5,1.1-3.3"/>
+		</g>
+		<polygon class="st5" points="29.9,-6.9 30.5,-5.7 31.8,-5.5 30.8,-4.5 31.1,-3.2 29.9,-3.9 28.7,-3.2 28.9,-4.5 28,-5.5 
+			29.3,-5.7 		"/>
+		<polygon class="st5" points="6.7,-23.8 7.3,-22.7 8.6,-22.5 7.7,-21.5 7.9,-20.2 6.7,-20.8 5.5,-20.2 5.8,-21.5 4.8,-22.5 
+			6.1,-22.7 		"/>
+		<polygon class="st6" points="28.2,-27.8 28.6,-27 29.5,-26.9 28.9,-26.2 29,-25.4 28.2,-25.8 27.4,-25.4 27.6,-26.2 27,-26.9 
+			27.8,-27 		"/>
+		<circle class="st7" cx="21.4" cy="-28.6" r="2.1"/>
+		<polygon class="st8" points="16,-24.5 16.5,-23.3 17.9,-23.1 16.9,-22.1 17.1,-20.8 16,-21.5 14.8,-20.8 15,-22.1 14.1,-23.1 
+			15.4,-23.3 		"/>
+		<polygon class="st8" points="5.1,-14.2 5.7,-13 7.1,-12.8 6.1,-11.9 6.3,-10.5 5.1,-11.2 4,-10.5 4.2,-11.9 3.2,-12.8 4.6,-13 		
+			"/>
+	</g>
+</pattern>
+<pattern  id="SVGID_1_" xlink:href="#New_Pattern_Swatch_6" patternTransform="matrix(1 0 0 1 -145.5621 5.6563)">
+</pattern>
+<rect x="-0.2" y="0.5" class="st9" width="178" height="118"/>
+<circle class="st10" cx="88.8" cy="59.5" r="27.9"/>
+<g>
+	<g>
+		<rect x="74.3" y="51.9" class="st11" width="29" height="21.9"/>
+		<rect x="74.3" y="51.9" class="st12" width="29" height="21.9"/>
+		<rect x="74.3" y="51.9" class="st13" width="29" height="21.9"/>
+	</g>
+	<rect x="74.4" y="51.9" class="st14" width="28.9" height="12"/>
+	<polyline class="st13" points="97.6,51.5 97.6,45.2 80,45.2 80,51.9 	"/>
+	<circle class="st14" cx="88.6" cy="58.9" r="1.4"/>
+</g>
+</svg>
