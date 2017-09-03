@@ -5,38 +5,35 @@
     <!-- mobile metatags-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Anabel Sposato - Web Design </title>
+    <title>Anabel Sposato - Front-End Development / Web Design </title>
     <!-- bootstrap code css -->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <!-- bootswatch simplex theme-->
     <link rel="stylesheet" href="bower_components/bootswatch-dist/css/bootstrap.min.css">
-    <!-- magnific pop up-->
-    <link rel="stylesheet" href="bower_components/magnific-popup/dist/magnific-popup.css">
     <!-- fontawasome -->
     <link rel="stylesheet" href="bower_components/components-font-awesome/css/font-awesome.min.css">
-    <!--main css-->
+    <!--normalize-->
     <link rel="stylesheet" href="bower_components/normalize-css/normalize.css">
     <!--main css-->
     <link rel="stylesheet" href="css/main.css">
 </head>
-<div data-spy="scroll" data-target="#navbar-example">
+<body data-spy="scroll" data-target="#my-navbar">
     <div id="wrapper">
-        <nav class="navbar navbar-default navbar-fixed-top" id="navbar-example">
+        <nav class="navbar navbar-default navbar-fixed-top" id="my-navbar">
             <div class="container">
-                <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
                             data-target="#navigationBar">
                         <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                     </button>
-                    <a class="navbar-brand page-scroll" href="#page-top"><img src="imgs/sposato-logo.svg" alt=""></a>
+                    <a class="navbar-brand page-scroll" href="index.html"><img src="imgs/sposato-logo.svg" alt=""></a>
                 </div>
 
-                <!-- Collect the nav links, forms, and other content for toggling -->
+
                 <div class="collapse navbar-collapse" id="navigationBar">
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="#home">Home<span class="sr-only">(current)</span></a></li>
-                        <li><a href="#about">About<span class="sr-only">(current)</span></a></li>
+                        <li><a href="#about">About</a></li>
                         <li><a href="#services">Services</a></li>
                         <li><a href="#skills">Skills</a></li>
                         <li><a href="#portfolio">Portfolio</a></li>
@@ -48,7 +45,6 @@
             </div>
             <!-- /.container-fluid -->
         </nav>
-
         <header id="home">
             <div class="heroImg bannerFullHeight">
                 <div class="container">
@@ -80,7 +76,7 @@
                                 today.
                             </p>
 
-                            <p class="p">I am a flexible person who enjoys working either independently or as a team
+                            <p>I am a flexible person who enjoys working either independently or as a team
                                 member.
                                 I love working on different projects and ensure that each one of them is pixel perfect,
                                 cross-browser compatible,
@@ -94,12 +90,12 @@
                                 In my spare time, I spend hours and hours trying new techniques to add life to my pet
                                 projects.</p>
                             <a class="btn btn-link toggle">Read More</a>
-                        </div>
+                        </div><!-- / introduction div -->
                         <div class="col-xs-12 col-sm-12 col-md-3 col-md-offset-1 col-md-offset-1 col-lg-3">
                             <img id="myPic" src="imgs/my_picture.jpg" width="410" height="410"
                                  class="img-responsive img-circle"
                                  alt="">
-                        </div><!---->
+                        </div><!-- / my picture -->
                     </div>
                     <div class="row">
                         <h3>Background</h3>
@@ -109,7 +105,7 @@
                                 embraced
                                 its lifestyle, technology and culture. London became my home and I found my first job in
                                 here as a Graphic - Web Designer.</p>
-                        </div>
+                        </div><!-- / col left background-->
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <p> I worked there for two years designing and sometimes coding in HTML and CSS. However, I
                                 have
@@ -119,85 +115,79 @@
                                 HTML5,
                                 CSS3, Node.js and Git, Bootstrap and Sass.
                             </p>
-                        </div>
+                        </div><!-- / col right background-->
 
                     </div>
                     <div class="row">
                         <h3>Education</h3>
                         <hr class="grayUnderline">
 
-                            <div class="columnMargin col-xs-12 col-sm-12 col-md-6 col-lg-4">
-                                <img src="imgs/icons/degree.svg" width="200" height="200" class="img-responsive" alt="">
-                                <h4>High School 'Ana Maria Janer Institute'</h4>
-                                <h5>December 2004</h5>
+                        <div class="columnMargin col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                            <img src="imgs/icons/degree.svg" width="200" height="200" class="img-responsive" alt="school">
+                            <h4>High School 'Ana Maria Janer Institute'</h4>
+                            <h5>December 2004</h5>
 
-                                <p class="educationParagraph">I finished High School in Buenos Aires, Argentina and
-                                    obtain a degree in Social Communication.
-                                </p>
-                            </div><!--/  university -->
+                            <p class="educationParagraph">I finished High School in Buenos Aires, Argentina and
+                                obtain a degree in Social Communication.
+                            </p>
+                        </div><!--/  col high school -->
 
-                            <div class="columnMargin col-xs-12 col-sm-12 col-md-6 col-lg-4">
-                                <img src="imgs/icons/graduation.svg" width="200" height="200" class="img-responsive"
-                                     alt="">
-                                <h4>University (UADE)</h4>
-                                <h5>March 2005 - December 2010</h5>
-                                <p class="educationParagraph">I started University (UADE) in Buenos
-                                    Aires, Argentina in 2005 and I've got a degree in Graphic Design in 2010.
-                                </p>
-                            </div><!--/  university -->
-                            <div class="columnMargin col-xs-12 col-sm-12 col-md-6 col-lg-4">
-                                <img src="imgs/icons/job.svg" width="200" height="200" class="img-responsive"
-                                     alt="">
-                                <h4>Control Z, Bs As, Argentina </h4>
-                                <h5>March 2013 – December 2013</h5>
-
-                                <p class="educationParagraph">Digital Agency, I worked as a Web Designer creating
-                                    wireframes and
-                                    prototypes for websites and getting client feedback.
-
-                                </p>
-                                <p class="readMoreText"> And finally developing the agreed result in HTML/CSS.</p>
-                                <a class="btn btn-link toggle">Read More</a>
-
-                            </div>
-
-                                <div class="columnMargin col-xs-12 col-sm-12 col-md-6 col-lg-4">
-                                    <img src="imgs/icons/job.svg" width="200" height="200" class="img-responsive"
-                                         alt="">
-                                    <h4>PrinterPix, London, UK</h4>
-                                    <h5>April 2014 – March 2016</h5>
-
-                                    <p class="educationParagraph">Hired as a graphic designer I was quickly moved to the
-                                        digital/web
-                                        team as my skills were suitable for that.
-                                    </p>
-                                    <p class="educationParagraph readMoreText">In that team I was in charge of the email
-                                        marketing and keeping the CMS updated.</p>
-
-                                    <a class="btn btn-link toggle">Read More</a>
-                                </div>
-
-                                <div class="columnMargin col-xs-12 col-sm-12 col-md-6 col-lg-4">
-                                    <img src="imgs/icons/course.svg" width="200" height="200" class="img-responsive"
-                                         alt="">
-                                    <h4>Present: Career break</h4>
-                                    <h5>January 2011 – Present</h5>
-
-                                    <p class="educationParagraph"> Working in a few freelance projects while I attend to the
-                                        Web Designer training at
-                                        <a href="">www.trainingdragon.co.uk</a>.
-                                    </p>
-                                    <p class="educationParagraph readMoreText">The tools I've learned: HTML5/CSS3 |
-                                        Javascript/JQuery | Git | AJAX | Gulp/Grunt | npm | bower | SASS | Bootstrap
-                                        | Wordpress | PHP | SQL | NoSQL | NodeJS | REST | React Native | Sketch App.</p>
-
-                                    <a class="btn btn-link toggle">Read More</a>
-
-
-                                </div>
-                        <div class="columnMargin col-xs-12 col-sm-12 col-md-6 col-lg-4">
-                            <img src="imgs/icons/course.svg" width="200" height="200" class="img-responsive"
+                        <div class="columnMargin col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                            <img src="imgs/icons/graduation.svg" width="200" height="200" class="img-responsive"
                                  alt="">
+                            <h4>University (UADE)</h4>
+                            <h5>March 2005 - December 2010</h5>
+                            <p class="educationParagraph">I started University (UADE) in Buenos
+                                Aires, Argentina in 2005 and I've got a degree in Graphic Design in 2010.
+                            </p>
+                        </div><!--/  col university -->
+                        <div class="columnMargin col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                            <img src="imgs/icons/job.svg" width="200" height="200" class="img-responsive"
+                                 alt="job">
+                            <h4>Control Z, Bs As, Argentina </h4>
+                            <h5>March 2013 – December 2013</h5>
+
+                            <p class="educationParagraph">Digital Agency, I worked as a Web Designer creating
+                                wireframes and
+                                prototypes for websites.
+                            </p>
+                        </div><!--/  col first job -->
+
+                        <div class="columnMargin col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                            <img src="imgs/icons/job.svg" width="200" height="200" class="img-responsive"
+                                 alt="job">
+                            <h4>PrinterPix, London, UK</h4>
+                            <h5>April 2014 – March 2016</h5>
+
+                            <p class="educationParagraph">Hired as a graphic designer I was quickly moved to the
+                                digital/web
+                                team as my skills were suitable for that.
+                            </p>
+                            <p class="educationParagraph readMoreText">In that team I was in charge of the email
+                                marketing and keeping the CMS updated.</p>
+
+                            <a class="btn btn-link toggle">Read More</a>
+                        </div><!--/  col second job -->
+
+                        <div class="columnMargin col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                            <img src="imgs/icons/course.svg" width="200" height="200" class="img-responsive"
+                                 alt="course">
+                            <h4>Present: Career break</h4>
+                            <h5>January 2011 – Present</h5>
+
+                            <p class="educationParagraph"> Working in a few freelance projects while I attend to the
+                                Web Designer training at
+                                <a href="http://www.trainingdragon.co.uk" target="_blank">www.trainingdragon.co.uk</a>.
+                            </p>
+                            <p class="educationParagraph readMoreText">The tools I've learned: HTML5/CSS3 |
+                                Javascript/JQuery | Git | AJAX | Gulp/Grunt | npm | bower | SASS | Bootstrap
+                                | Wordpress | PHP | SQL | NoSQL | NodeJS | REST | React Native | Sketch App.</p>
+
+                            <a class="btn btn-link toggle">Read More</a>
+                        </div><!--/  col course -->
+                        <div class="columnMargin col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                            <img src="imgs/icons/course.svg" width="200" height="200" class="img-responsive"
+                                 alt="course">
                             <h4>Freelance web designer/developer</h4>
                             <h5>March 2016 – Present</h5>
 
@@ -213,669 +203,697 @@
                                 <li>Used SAAS platforms to create fully customised e-commerce sites</li>
                                 <li>Corporate identity and branding</li>
                                 <li>Banners, ads, email campaigns, etc</li>
-                                <li> Printed catalogues, newspapers and magazines</li>
+                                <li>Printed catalogues, newspapers and magazines</li>
                             </ul>
                             <a class="btn btn-link toggle">Read More</a>
-                        </div>
+                        </div><!--/  col freelance job -->
+                    </div><!-- / row-->
+                </div><!-- / container-->
+    </section>
 
+    <!-- SERVICE SECTION -->
 
-
-
-
-                        </div><!-- / row-->
-
-
-                    </div>
-                </div>
-            </section>
-            <section id="services" class="bgLightGray">
-                <div class="container">
-                    <h2>Services</h2>
-                    <hr class="pink-line">
-                    <div class="row tweaked-margin">
-                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-                            <div class="box">
+    <section id="services" class="bgLightGray">
+        <div class="container">
+            <h2>Services</h2>
+            <hr class="pink-line">
+            <div class="row tweaked-margin">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="box">
                                 <span class="fa-stack fa-3x">
                                     <i class="fa fa-circle fa-stack-2x text-primary"></i>
                                     <i class="fa fa-code fa-1x fa-stack-1x fa-inverse"></i>
                                 </span>
 
-                                <h3>Responsive Websites</h3>
-                                <p class="text-center">Through responsive web design I can resize websites structure,
-                                    content automatically and adapt the design to different devices and screen
-                                    sizes.</p>
+                        <h3>Responsive Websites</h3>
+                        <p class="text-center">Through responsive web design I can resize websites structure,
+                            content automatically and adapt the design to different devices and screen
+                            sizes.</p>
 
-                            </div>
-                        </div><!-- / first column-->
-                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-                            <div class="box">
+                    </div><!-- / .box-->
+                </div><!-- / first column-->
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="box">
                                  <span class="fa-stack fa-3x">
                                     <i class="fa fa-circle fa-stack-2x text-primary"></i>
                                     <i class="fa fa-code fa-1x fa-stack-1x fa-inverse"></i>
                                 </span>
-                                <h3>Front-end Development</h3>
+                        <h3>Front-end Development</h3>
 
-                                <p class="text-center"> HTML5/CSS3 | Javascript/JQuery | Git | AJAX | Gulp/Grunt | npm |
-                                    bower | SASS | Bootstrap
-                                    | Wordpress | PHP | SQL | NoSQL | NodeJS | REST | React Native</p>
-                            </div>
-                        </div><!-- / second column-->
-                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-                            <div class="box">
+                        <p class="text-center"> HTML5/CSS3 | Javascript/JQuery | Git | AJAX | Gulp/Grunt | npm |
+                            bower | SASS | Bootstrap
+                            | Wordpress | PHP | SQL | NoSQL | NodeJS | REST | React Native</p>
+                    </div><!-- / .box-->
+                </div><!-- / second column-->
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="box">
                                  <span class="fa-stack fa-3x">
                                     <i class="fa fa-circle fa-stack-2x text-primary"></i>
                                     <i class="fa fa-diamond fa-1x fa-stack-1x fa-inverse"></i>
                                 </span>
-                                <h3>Prototyping</h3>
-                                <p class="text-center">I transform ideas into bespoken designs. I always think of
-                                    designs that are possible
-                                    to code. I choose Photoshop or Sketch to make my designs come alive.
-                                </p>
-                            </div>
-                        </div><!-- / third column-->
-                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-                            <div class="box">
+                        <h3>Prototyping</h3>
+                        <p class="text-center">I transform ideas into bespoken designs. I always think of
+                            designs that are possible
+                            to code. I choose Photoshop or Sketch to make my designs come alive.
+                        </p>
+                    </div><!-- / .box-->
+                </div><!-- / third column-->
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="box">
                                 <span class="fa-stack fa-3x">
                                     <i class="fa fa-circle fa-stack-2x text-primary"></i>
                                     <i class="fa fa-code fa-1x fa-stack-1x fa-inverse"></i>
                                 </span>
-                                <h3>Wordpress Development</h3>
-                                <p class="text-center">On one hand, I transform your psd files into responsive Wp theme.
-                                    On the other hand,
-                                    I am able to customise a Wp theme with your favourite plugins.</p>
-                            </div>
-                        </div><!--/ fourth column-->
-                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-                            <div class="box">
+                        <h3>Wordpress Development</h3>
+                        <p class="text-center">On one hand, I transform your psd files into responsive Wp theme.
+                            On the other hand,
+                            I am able to customise a Wp theme with your favourite plugins.</p>
+                    </div><!-- / .box-->
+                </div><!--/ fourth column-->
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="box">
                                 <span class="fa-stack fa-3x">
                                     <i class="fa fa-circle fa-stack-2x text-primary"></i>
                                     <i class="fa fa fa-eye fa-1x fa-stack-1x fa-inverse"></i>
                                 </span>
-                                <h3>Search engine optimisation</h3>
-                                <p class="text-center">
-                                    I build SEO-friendly sites ensuring their visibility in the search engine result
-                                    pages.
-                                    High ranking sites can generate volumes of visitors.</p>
-                            </div>
-                        </div><!-- / fith column-->
-                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-                            <div class="box">
+                        <h3>Search engine optimisation</h3>
+                        <p class="text-center">
+                            I build SEO-friendly sites ensuring their visibility in the search engine result
+                            pages.
+                            High ranking sites can generate volumes of visitors.</p>
+                    </div><!-- / .box-->
+                </div><!-- / fith column-->
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="box">
                                 <span class="fa-stack fa-3x">
                                     <i class="fa fa-circle fa-stack-2x text-primary"></i>
                                     <i class="fa fa fa-desktop fa-1x fa-stack-1x fa-inverse"></i>
                                 </span>
-                                <h3>Web Design</h3>
-                                <p class="text-center">Through web design I am able to create and code clean and simple
-                                    user interfaces that look appealing reinforcing
-                                    the credibility of your brand.</p>
-                            </div>
-                        </div><!-- / sixth column-->
-                    </div><!--/ row-->
-                </div>
-            </section>
-            <section id="skills">
-                <div class="container">
-                    <h2>Skills</h2>
+                        <h3>Web Design</h3>
+                        <p class="text-center">Through web design I am able to create and code clean and simple
+                            user interfaces that look appealing reinforcing
+                            the credibility of your brand.</p>
+                    </div> / .box
+                </div><!-- / sixth column-->
+            </div><!--/ row-->
+        </div><!-- / container -->
+    </section>
+
+    <!-- SKILL SECTION -->
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <hr class="pink-line">
+            <p class="lead">A website is more than a beautiful design. I build-front end user interfaces that
+                are user friendly by embracing the latest technology and practices.</p>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="panel-group">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading in">
+                                <div class="row">
+                                    <div class="col-xs-6">Check out my skills
+                                    </div>
+                                </div><!-- / row-->
+                            </div><!-- panel-heading -->
+                            <div class="panel-body collapse in">
+                                <div class="panel panel-success">
+                                    <div class="panel-heading" data-toggle="collapse"
+                                         data-target="#collapsePersonalSkills"
+                                         aria-expanded="false" aria-controls="collapsePersonalSkills"><i
+                                            class="fa fa-arrow-circle-right"></i> Personal Skills
+                                    </div><!-- / panel heading-->
+                                    <div class="panel-body collapse in" id="collapsePersonalSkills">
+                                        <ul>
+                                            <li class="skills">Logical Thinker</li>
+                                            <li class="skills">Attention to detail</li>
+                                            <li class="skills">Creative</li>
+                                            <li class="skills">Versatile</li>
+                                            <li class="skills">Problem Solver</li>
+                                            <li class="skills">Multitasking</li>
+                                            <li class="skills">Reliable</li>
+                                            <li class="skills">Committed</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="panel panel-success">
+                                    <div class="panel-heading" data-toggle="collapse"
+                                         data-target="#collapseTechnicalSkills"
+                                         aria-expanded="false" aria-controls="collapseTechnicalSkills"><i
+                                            class="fa fa-arrow-circle-right"></i> Technical Skills
+                                    </div><!-- / panel heading-->
+                                    <div class="panel-body collapse" id="collapseTechnicalSkills">
+                                        <ul>
+                                            <li>Adobe Creative Suite: Photoshop, Illustrator, Dreamweaver and
+                                                Indesign.
+                                            </li>
+                                            <li>Development Environments: WebStorm, PhpStorm or IntelliJ IDEA
+                                                and
+                                                Brackets.
+                                            </li>
+                                            <li>CMS: Wordpress</li>
+                                            <li>VCS: Git</li>
+                                            <li>Package Manager: npm, bower</li>
+                                            <li>Developer tools: browserify</li>
+                                            <li>Task Runners: Grunt, Gulp</li>
+                                            <li>Programming Languages: HTML, CSS3, HTML5, Javascript and Jquery,
+                                                PHP.
+                                            </li>
+                                            <li>Wireframing Softwares: Sketch App, Balsamiq</li>
+                                        </ul>
+                                    </div><!-- / panel body collapse-->
+                                </div><!-- / panel success-->
+                            </div><!-- panel-body-->
+                        </div><!-- panel-primary-->
+                    </div><!-- / panel-group-->
+                </div><!-- / col-->
+            </div><!--/ row-->
+        </div><!--/ container-->
+    </section>
+
+    <!--/ PORTFOLIO SECTION-->
+
+    <section id="portfolio" class="bgLightGray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Portfolio</h2>
                     <hr class="pink-line">
-                    <p class="lead">A website is more than a beautiful design. I build-front end user interfaces that
-                        are user friendly by embracing the latest technology and practices.</p>
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                            <div class="panel-group">
-                                <div class="panel panel-primary">
-                                    <div class="panel-heading in">
-                                        <div class="row">
-                                            <div class="col-xs-6">Check out my skills
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="panel-body collapse in">
-                                        <div class="panel panel-success">
-                                            <div class="panel-heading" data-toggle="collapse"
-                                                 data-target="#collapsePersonalSkills"
-                                                 aria-expanded="false" aria-controls="collapsePersonalSkills"><i
-                                                    class="fa fa-arrow-circle-right"></i> Personal Skills
-                                            </div>
-                                            <div class="panel-body collapse in" id="collapsePersonalSkills">
-                                                <ul>
-                                                    <li class="skills">Logical Thinker</li>
-                                                    <li class="skills">Attention to detail</li>
-                                                    <li class="skills">Creative</li>
-                                                    <li class="skills">Versatile</li>
-                                                    <li class="skills">Problem Solver</li>
-                                                    <li class="skills">Multitasking</li>
-                                                    <li class="skills">Reliable</li>
-                                                    <li class="skills">Committed</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="panel panel-success">
-                                            <div class="panel-heading" data-toggle="collapse"
-                                                 data-target="#collapseTechnicalSkills"
-                                                 aria-expanded="false" aria-controls="collapseTechnicalSkills"><i
-                                                    class="fa fa-arrow-circle-right"></i> Technical Skills
-                                            </div>
-                                            <div class="panel-body collapse" id="collapseTechnicalSkills">
-                                                <ul>
-                                                    <li>Adobe Creative Suite: Photoshop, Illustrator, Dreamweaver and
-                                                        Indesign.
-                                                    </li>
-                                                    <li>Development Environments: WebStorm, PhpStorm or IntelliJ IDEA
-                                                        and
-                                                        Brackets.
-                                                    </li>
-                                                    <li>CMS: Wordpress</li>
-                                                    <li>VCS: Git</li>
-                                                    <li>Package Manager: npm, bower</li>
-                                                    <li>Developer tools: browserify</li>
-                                                    <li>Task Runners: Grunt, Gulp</li>
-                                                    <li>Programming Languages: HTML, CSS3, HTML5, Javascript and Jquery,
-                                                        PHP.
-                                                    </li>
-                                                    <li>Wireframing Softwares: Sketch App, Balsamiq</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div><!-- panel-primary-->
-                            </div>
-                        </div>
-                    </div><!--/ row-->
-                </div><!--/ container-->
-            </section>
-            <section id="portfolioProjects" class="bgLightGray">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12 text-center">
-                            <h2>Portfolio</h2>
-                            <hr class="pink-line">
 
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-4 col-sm-6 portfolio-item">
-                            <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content">
-                                        <i class="fa fa-search-plus fa-2x"></i>
-                                    </div>
-                                </div>
-                                <img src="imgs/portfolio/thumbnail/popup-modal/01.jpg" width="500" height="375"
-                                     class="img-responsive" alt="">
-                            </a>
-                            <div class="portfolio-caption">
-                                <h4>Gamitrano's Premium Bakery</h4>
-                                <p class="lightGray">HTML / CSS</p>
+                </div><!-- / col-->
+            </div><!-- / row-->
+            <div class="row">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-search-plus fa-2x"></i>
                             </div>
                         </div>
-                        <div class="col-md-4 col-sm-6 portfolio-item">
-                            <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content">
-                                        <i class="fa fa-search-plus fa-2x"></i>
-                                    </div>
-                                </div>
-                                <img src="imgs/portfolio/thumbnail/popup-modal/02.jpg" width="500" height="375"
-                                     class="img-responsive" alt="">
-                            </a>
-                            <div class="portfolio-caption">
-                                <h4>River Plate Consultancy</h4>
-                                <p class="lightGray">HTML / CSS3</p>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4 col-sm-6 portfolio-item">
-                            <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content">
-                                        <i class="fa fa-search-plus fa-2x"></i>
-                                    </div>
-                                </div>
-                                <img src="imgs/portfolio/thumbnail/popup-modal/03.jpg" width="500" height="375"
-                                     class="img-responsive" alt="">
-                            </a>
-                            <div class="portfolio-caption">
-                                <h4>Currency Converter</h4>
-                                <p class="lightGray">Javascript</p>
-                            </div>
-                        </div>
-
-
-                        <div class="col-md-4 col-sm-6 portfolio-item">
-                            <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content">
-                                        <i class="fa fa-search-plus fa-2x"></i>
-                                    </div>
-                                </div>
-                                <img src="imgs/portfolio/thumbnail/popup-modal/04.jpg" width="500" height="375"
-                                     class="img-responsive" alt="">
-                            </a>
-                            <div class="portfolio-caption">
-                                <h4>Newsletter Clinique</h4>
-                                <p class="lightGray">HTML | Responsive</p>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 portfolio-item">
-                            <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content">
-                                        <i class="fa fa-search-plus fa-2x"></i>
-                                    </div>
-                                </div>
-                                <img src="imgs/portfolio/thumbnail/popup-modal/05.jpg" class="img-responsive" alt="" width="500" height="375">
-                            </a>
-                            <div class="portfolio-caption">
-                                <h4>Your Next Car</h4>
-                                <p class="lightGray">Javascript</p>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 portfolio-item">
-                            <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content">
-                                        <i class="fa fa-search-plus fa-2x"></i>
-                                    </div>
-                                </div>
-                                <img src="imgs/portfolio/thumbnail/popup-modal/06.jpg" class="img-responsive" alt="" width="500" height="375">
-                            </a>
-                            <div class="portfolio-caption">
-                                <h4>Responsive Slider</h4>
-                                <p class="lightGray">jQuery - CSS3</p>
-                            </div>
-                        </div>
+                        <img src="imgs/portfolio/thumbnail/popup-modal/01.jpg" width="500" height="375"
+                             class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Gamitrano's Premium Bakery</h4>
+                        <p class="lightGray">HTML / CSS</p>
                     </div>
                 </div>
-            </section>
-
-            <section id="blog" class="container">
-                <h2>Latest news</h2>
-                <hr class="pink-line">
-                <ul class="nav nav-tabs">
-                    <li class="active"><a href="#html" data-toggle="tab">HTML</a></li>
-                    <li><a href="#css" data-toggle="tab">CSS</a></li>
-                    <li><a href="#js" data-toggle="tab">JS</a></li>
-                    <li><a href="#php" data-toggle="tab">PHP</a></li>
-                    <li><a href="#html5" data-toggle="tab">HTML5</a></li>
-                    <li><a href="#wp" data-toggle="tab">Wordpress</a></li>
-                </ul>
-                <div id="myTabContent" class="tab-content">
-                    <div class="tab-pane fade active in" id="html">
-                        <article class="row  tweaked-margin">
-                            <div class="col-lg-4 col-md-4 col-sm-12">
-                                <img src="imgs/portfolio/thumbnail/thumbnail-04.jpg" class="img-responsive center-block"
-                                     alt="">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-search-plus fa-2x"></i>
                             </div>
-                            <div class="col-lg-8 col-md-8 col-sm-12">
-                                <h3>Web Design course</h3>
-                                <p class="lightGray"><i class="fa fa-calendar"></i><span
-                                        class="iconSpace">Posted Apr. 22, 2017</span>
-                                    | <i class="fa fa-clock-o"></i><span
-                                            class="iconSpace">Reading time: Less than a minute.</span></p>
-                                <hr>
-                                <p>Welcome to my blog and thank you for taking the time to visit it.
-                                    I hope my story could help you to understand my learning process and why I wanted a career change.
-                                    My story begins like this: One year ago, I decided to meet a friend, who is a developer by the way,
-                                    and ask him a couple of questions regarding his job.</p>
-                                <a href="" class="btn btn-link">Read More <i class="fa fa-arrow-right"></i></a>
-                            </div><!--/ news paragraph-->
-                        </article><!--/row-->
+                        </div>
+                        <img src="imgs/portfolio/thumbnail/popup-modal/02.jpg" width="500" height="375"
+                             class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>River Plate Consultancy</h4>
+                        <p class="lightGray">HTML / CSS3</p>
                     </div>
-                    <div class="tab-pane fade" id="css"><p>lorem ipsum dolor sit amet</p></div>
-                    <div class="tab-pane fade" id="js"><p>lorem ipsum dolor sit amet</p></div>
-                    <div class="tab-pane fade" id="php"><p>lorem ipsum dolor sit amet</p></div>
-                    <div class="tab-pane fade" id="html5"><p>lorem ipsum dolor sit amet</p></div>
-                    <div class="tab-pane fade" id="wp"><p>lorem ipsum dolor sit amet</p></div>
                 </div>
-            </section>
-        </main>
-        <footer id="contact">
+
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-search-plus fa-2x"></i>
+                            </div>
+                        </div>
+                        <img src="imgs/portfolio/thumbnail/popup-modal/03.jpg" width="500" height="375"
+                             class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Currency Converter</h4>
+                        <p class="lightGray">Javascript</p>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-search-plus fa-2x"></i>
+                            </div>
+                        </div>
+                        <img src="imgs/portfolio/thumbnail/popup-modal/04.jpg" width="500" height="375"
+                             class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Newsletter Clinique</h4>
+                        <p class="lightGray">HTML | Responsive</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-search-plus fa-2x"></i>
+                            </div>
+                        </div>
+                        <img src="imgs/portfolio/thumbnail/popup-modal/05.jpg" class="img-responsive" alt="" width="500"
+                             height="375">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Your Next Car</h4>
+                        <p class="lightGray">Javascript</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-search-plus fa-2x"></i>
+                            </div>
+                        </div>
+                        <img src="imgs/portfolio/thumbnail/popup-modal/06.jpg" class="img-responsive" alt="" width="500"
+                             height="375">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Responsive Slider</h4>
+                        <p class="lightGray">jQuery - CSS3</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog" class="container">
+        <h2>Latest news</h2>
+        <hr class="pink-line">
+        <ul class="nav nav-tabs">
+            <li class="active"><a href="#html" data-toggle="tab">HTML</a></li>
+            <li><a href="#css" data-toggle="tab">CSS</a></li>
+            <li><a href="#js" data-toggle="tab">JS</a></li>
+            <li><a href="#php" data-toggle="tab">PHP</a></li>
+            <li><a href="#html5" data-toggle="tab">HTML5</a></li>
+            <li><a href="#wp" data-toggle="tab">Wordpress</a></li>
+        </ul>
+        <div id="myTabContent" class="tab-content">
+            <div class="tab-pane fade active in" id="html">
+                <article class="row  tweaked-margin">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <img src="imgs/portfolio/thumbnail/thumbnail-04.jpg" class="img-responsive center-block"
+                             alt="">
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-sm-12">
+                        <h3>Web Design course</h3>
+                        <p class="lightGray"><i class="fa fa-calendar"></i><span
+                                class="iconSpace">Posted Apr. 22, 2017</span>
+                            | <i class="fa fa-clock-o"></i><span
+                                    class="iconSpace">Reading time: Less than a minute.</span></p>
+                        <hr>
+                        <p>Welcome to my blog and thank you for taking the time to visit it.
+                            I hope my story could help you to understand my learning process and why I wanted a career
+                            change.
+                            My story begins like this: One year ago, I decided to meet a friend, who is a developer by
+                            the way,
+                            and ask him a couple of questions regarding his job.</p>
+                        <a href="" class="btn btn-link">Read More <i class="fa fa-arrow-right"></i></a>
+                    </div><!--/ news paragraph-->
+                </article><!--/row-->
+            </div>
+            <div class="tab-pane fade" id="css"><p>lorem ipsum dolor sit amet</p></div>
+            <div class="tab-pane fade" id="js"><p>lorem ipsum dolor sit amet</p></div>
+            <div class="tab-pane fade" id="php"><p>lorem ipsum dolor sit amet</p></div>
+            <div class="tab-pane fade" id="html5"><p>lorem ipsum dolor sit amet</p></div>
+            <div class="tab-pane fade" id="wp"><p>lorem ipsum dolor sit amet</p></div>
+        </div>
+    </section>
+    </main>
+    <footer id="contact">
+        <div class="container">
+            <div class="row">
+                <img src="imgs/sposato-logo.svg" class="center-block" alt="">
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <h4>Get in touch</h4>
+                    <p>If you have a project in mind please feel free to contact me</p>
+                    <a id="emailLink" href="mailto:sposatoanabel@gmail.com"><i class="fa fa-envelope-o"
+                                                                               aria-hidden="true"></i>
+                        sposatoanabel@gmail.com</a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12" id="usefulLinks">
+
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><a href="work.html" target="_blank"><span class="colorIcons"><i
+                                class="fa fa-arrow-right fa-1x"></i></span>My work</a>
+                        </li>
+                        <li><a href="https://www.smashingmagazine.com/" target="_blank"><span class="colorIcons"><i
+                                class="fa fa-arrow-right fa-1x"></i></span>Smashing Magazine</a>
+                        </li>
+                        <li><a href="https://www.sposatoanabel.com/blog" target="_blank"><span
+                                class="colorIcons"><i class="fa fa-arrow-right fa-1x"></i></span>My Blog</a>
+                        </li>
+                        <li><a href="https://css-tricks.com/" target="_blank"><span class="colorIcons"><i
+                                class="fa fa-arrow-right fa-1x"></i></span>CSS Tricks</a></li>
+                        <li><a href="https://caniuse.com/" target="_blank"><span class="colorIcons"><i
+                                class="fa fa-arrow-right fa-1x"></i></span>Can I use</a></li>
+                        <li><a href="https://stackoverflow.com/" target="_blank"><span class="colorIcons"><i
+                                class="fa fa-arrow-right fa-1x"></i></span>Stack Overflow</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <h4>Let's get social</h4>
+                    <ul>
+                        <li class="socialIcons"><a href="https://github.com/sposatoanabel" class="colorIcons"><i
+                                class="fa fa-github fa-1x"></i></a><a id="github"
+                                                                      href="https://github.com/sposatoanabel"
+                                                                      target="_blank"> View my projects on
+                            GitHub</a>
+                        </li>
+                        <li class="socialIcons"><a href="https://uk.linkedin.com/in/asposato/en" class="colorIcons"><i
+                                class="fa fa-linkedin fa-1x"></i></a> <a id="linkedin"
+                                                                         href="https://uk.linkedin.com/in/asposato/en"
+                                                                         target="_blank">View my profile on
+                            LinkedIn</a>
+                        </li>
+                        <li class="socialIcons"><a href="https://www.facebook.com/sposatoanabel" class="colorIcons"><i
+                                class="fa fa-facebook fa-1x"></i></a><a id="facebook"
+                                                                        href="https://www.facebook.com/sposatoanabel"
+                                                                        target="_blank">View sposatoanabel</a>
+                        </li>
+                        <li class="socialIcons"><a href="https://www.behance.net/asposato" class="colorIcons"><i
+                                class="fa fa-behance fa-1x"></i></a><a id="behance"
+                                                                       href="https://www.behance.net/asposato"
+                                                                       target="_blank">Follow asposato</a></li>
+                        <li class="socialIcons"><a href="https://twitter.com/sposatoanabel" class="colorIcons"><i
+                                class="fa fa-twitter fa-1x"></i></a><a id="twitter"
+                                                                       href="https://twitter.com/sposatoanabel"
+                                                                       target="_blank">Follow @sposatoanabel</a>
+                        </li>
+                    </ul>
+                </div>
+            </div><!--/row-->
+            <div class="row">
+                <p class="copyright">© 2017 sposato.co.uk. All right Reserved. Design and build by Sposato
+                    Anabel</p>
+            </div>
+        </div><!--/ container-->
+    </footer>
+</div><!-- / wrapper-->
+
+<!-- Portfolio Modals -->
+<!-- Modal for showcasing each one of my projects -->
+
+<!-- Portfolio Modal 1 -->
+<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div><!-- / -->
+                </div><!-- / -->
+            </div><!-- / -->
             <div class="container">
                 <div class="row">
-                    <img src="imgs/sposato-logo.svg" class="center-block" alt="">
-                </div>
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Gamitrano's Premium Bakery</h2>
+                            <p class="item-intro lightGray">Website | Landing Page</p>
+                            <img class="img-responsive img-centered" src="imgs/portfolio/fullsize/popup-modal/01.jpg"
+                                 alt="">
+
+                            <p>Gamitrano's Premium Bakery is a one single page website. I created and developed it
+                                for Training Dragon as a pet project while
+                                I was attending my Web Design course.
+                            </p>
+
+                            <p>This one single page was built in HTML and CSS.
+                                To add smoothness to the nav bar menu, I used a little bit of javascript.</p>
+                            <ul class="list-inline projectDetail">
+                                <li><i class="fa fa-calendar"></i><span class="iconSpace">Date: August 2016</span></li>
+                                <li><i class="fa fa-user"></i><span class="iconSpace">Client: Training Dragon | Pet Project</span>
+                                </li>
+                                <li><i class="fa fa-tag"></i><span class="iconSpace">Category: Web Design | Graphic Design</span>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i
+                                    class="fa fa-times"></i> Close Project
+                            </button>
+                        </div><!-- / modal-body-->
+                    </div><!-- / col-->
+                </div><!-- / row-->
+            </div> <!--/ container -->
+        </div> <!--/ modal-content-->
+    </div> <!--/ modal-dialog -->
+</div><!-- / portfolio-modal 1-->
+
+<!-- Portfolio Modal 2 -->
+<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div><!-- / -->
+                </div><!-- / -->
+            </div><!-- / -->
+            <div class="container">
                 <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-12">
-                        <h4>Get in touch</h4>
-                        <p>If you have a project in mind please feel free to contact me</p>
-                        <a id="emailLink" href="mailto:sposatoanabel@gmail.com"><i class="fa fa-envelope-o"
-                                                                                   aria-hidden="true"></i>
-                            sposatoanabel@gmail.com</a>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12" id="usefulLinks">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>River Plate Consultancy Ltd</h2>
+                            <p class="item-intro lightGray">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered"
+                                 src="imgs/portfolio/fullsize/popup-modal/02.jpg"
+                                 alt="">
+                            <p><a href="http://designmodo.com/startup/?u=787">Startup Framework</a> River Plate
+                                Consultancy Ltd is a
+                                responsive website with four sections.
+                                This project was built in HTML, CSS3 and Javascript.</p>
 
-                        <h4>Useful Links</h4>
-                        <ul>
-                            <li><a href="work.html" target="_blank"><span class="colorIcons"><i
-                                    class="fa fa-arrow-right fa-1x"></i></span>My work</a>
-                            </li>
-                            <li><a href="https://www.smashingmagazine.com/" target="_blank"><span class="colorIcons"><i
-                                    class="fa fa-arrow-right fa-1x"></i></span>Smashing Magazine</a>
-                            </li>
-                            <li><a href="https://www.sposatoanabel.com/blog" target="_blank"><span
-                                    class="colorIcons"><i class="fa fa-arrow-right fa-1x"></i></span>My Blog</a>
-                            </li>
-                            <li><a href="https://css-tricks.com/" target="_blank"><span class="colorIcons"><i
-                                    class="fa fa-arrow-right fa-1x"></i></span>CSS Tricks</a></li>
-                            <li><a href="https://caniuse.com/" target="_blank"><span class="colorIcons"><i
-                                    class="fa fa-arrow-right fa-1x"></i></span>Can I use</a></li>
-                            <li><a href="https://stackoverflow.com/" target="_blank"><span class="colorIcons"><i
-                                    class="fa fa-arrow-right fa-1x"></i></span>Stack Overflow</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12">
-                        <h4>Let's get social</h4>
-                        <ul>
-                            <li class="socialIcons"><a href="https://github.com/sposatoanabel" class="colorIcons"><i
-                                    class="fa fa-github fa-1x"></i></a><a id="github"
-                                                                          href="https://github.com/sposatoanabel"
-                                                                          target="_blank"> View my projects on
-                                GitHub</a>
-                            </li>
-                            <li class="socialIcons"><a href="https://uk.linkedin.com/in/asposato/en" class="colorIcons"><i
-                                    class="fa fa-linkedin fa-1x"></i></a> <a id="linkedin"
-                                                                             href="https://uk.linkedin.com/in/asposato/en"
-                                                                             target="_blank">View my profile on
-                                LinkedIn</a>
-                            </li>
-                            <li class="socialIcons"><a href="https://www.facebook.com/sposatoanabel" class="colorIcons"><i
-                                    class="fa fa-facebook fa-1x"></i></a><a id="facebook"
-                                                                            href="https://www.facebook.com/sposatoanabel"
-                                                                            target="_blank">View sposatoanabel</a>
-                            </li>
-                            <li class="socialIcons"><a href="https://www.behance.net/asposato" class="colorIcons"><i
-                                    class="fa fa-behance fa-1x"></i></a><a id="behance"
-                                                                           href="https://www.behance.net/asposato"
-                                                                           target="_blank">Follow asposato</a></li>
-                            <li class="socialIcons"><a href="https://twitter.com/sposatoanabel" class="colorIcons"><i
-                                    class="fa fa-twitter fa-1x"></i></a><a id="twitter"
-                                                                           href="https://twitter.com/sposatoanabel"
-                                                                           target="_blank">Follow @sposatoanabel</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div><!--/row-->
+                            <p> Before developing the website,
+                                I created a wireframe in a software called Axure and the UI in Sketch App.
+                                It must be emphasised that Flexbox helped me building the site responsive.</p>
+                            <p>I also played a little bit with Javascript to develop a simple slider on the
+                                homepage.</p>
+                            <p>You have a look at this project in my github account <a
+                                    href="http://designmodo.com/startup/?u=787">here</a>.
+                            </p>
+                            <ul class="list-inline projectDetail">
+                                <li><i class="fa fa-calendar"></i> <span class="iconSpace">Date: August 2016</span></li>
+                                <li><i class="fa fa-user"></i> <span class="iconSpace">Client: Training Dragon | Pet Project</span>
+                                </li>
+                                <li><i class="fa fa-tag"></i> <span class="iconSpace">Category: Web Design | HTML | CSS3 | Javascript</span>
+                                </li>
+                            </ul>
+
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i
+                                    class="fa fa-times"></i> Close Project
+                            </button>
+                        </div><!-- / modal-body-->
+                    </div><!-- / col-->
+                </div><!-- / row-->
+            </div> <!-- / container -->
+        </div><!-- / modal-content-->
+    </div><!-- / modal-dialog -->
+</div><!-- portfolio-modal 2-->
+
+<!-- Portfolio Modal 3 -->
+<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div><!-- / -->
+                </div><!-- / -->
+            </div><!-- / -->
+            <div class="container">
                 <div class="row">
-                    <p class="copyright">© 2017 sposato.co.uk. All right Reserved. Design and build by Sposato
-                        Anabel</p>
-                </div>
-            </div><!--/ container-->
-        </footer>
-    </div><!-- / wrapper-->
-
-    <!-- Portfolio Modals -->
-    <!-- Use the modals below to showcase details about your portfolio projects! -->
-
-    <!-- Portfolio Modal 1 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2>Gamitrano's Premium Bakery</h2>
-                                <p class="item-intro lightGray">Website | Landing Page</p>
-                                <img class="img-responsive img-centered" src="imgs/portfolio/fullsize/popup-modal/01.jpg" alt="">
-
-                                <p>Gamitrano's Premium Bakery is a one single page website. I created and developed it
-                                    for Training Dragon as a pet project while
-                                    I was attending my Web Design course.
-                                </p>
-
-                                <p>This one single page was built in HTML and CSS.
-                                    To add smoothness to the nav bar menu, I used a little bit of javascript.</p>
-                                <ul class="list-inline projectDetail">
-                                    <li> <span class="fa fa-calendar"></span>Date: August 2016</li>
-                                    <li> <span class="fa fa-user"></span>Client: Training Dragon | Pet Project</li>
-                                    <li> <span class="fa fa-tag"></span>Category: Web Design | Graphic Design</li>
-                                </ul>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i
-                                        class="fa fa-times"></i> Close Project
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 2 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <h2>River Plate Consultancy Ltd</h2>
-                                <p class="item-intro lightGray">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered"
-                                     src="imgs/portfolio/fullsize/popup-modal/02.jpg"
-                                     alt="">
-                                <p><a href="http://designmodo.com/startup/?u=787">Startup Framework</a> River Plate
-                                    Consultancy Ltd is a
-                                    responsive website with four sections.
-                                    This project was built in HTML, CSS3 and Javascript.</p>
-
-                                <p> Before developing the website,
-                                    I created a wireframe in a software called Axure and the UI in Sketch App.
-                                    It must be emphasised that Flexbox helped me building the site responsive.</p>
-                                <p>I also played a little bit with Javascript to develop a simple slider on the
-                                    homepage.</p>
-                                <ul class="list-inline projectDetail">
-                                    <li> <span class="fa fa-calendar"></span>Date: August 2016</li>
-                                    <li> <span class="fa fa-user"></span>Client: Training Dragon | Pet Project</li>
-                                    <li> <span class="fa fa-tag"></span>Category: Web Design | HTML | CSS3 | Javascript</li>
-                                </ul>
-                                <p>You can preview Startup Framework <a
-                                        href="http://designmodo.com/startup/?u=787">here</a>.
-                                </p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i
-                                        class="fa fa-times"></i> Close Project
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 3 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2>Currency Converter</h2>
-                                <p class="item-intro lightGray">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="imgs/portfolio/fullsize/popup-modal/03.jpg"
-                                     alt="">
-                                <p>I choose to build a currency converter for my Javascript course. To
-                                    summarise, the project works in this way:
-                                <p>First of all, it displays an input, where the users will introduce the desired
-                                    amount of money (a number),
-                                    a select to choose the original currency,
-                                    another select to pick the target currency and an output field to display the flag,
-                                    the symbol and the currency exchange.</p>
-                                </p>
-                                <p>You can find my project in my <a
-                                        href="https://github.com/sposatoanabel/JAVASCRIPT-Currency-Converter-TrainingDragon">Github
-                                    account</a>.
-                                </p>
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Currency Converter</h2>
+                            <p class="item-intro lightGray">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="imgs/portfolio/fullsize/popup-modal/03.jpg"
+                                 alt="">
+                            <p>I choose to build a currency converter for my Javascript course. To
+                                summarise, the project works in this way:
+                            <p>First of all, it displays an input, where the users will introduce the desired
+                                amount of money (a number),
+                                a select to choose the original currency,
+                                another select to pick the target currency and an output field to display the flag,
+                                the symbol and the currency exchange.</p>
+                            </p>
+                            <p>You can find my project in my <a
+                                    href="https://github.com/sposatoanabel/JAVASCRIPT-Currency-Converter-TrainingDragon">Github
+                                account</a>.
+                            </p>
 
 
-                                <ul class="list-inline projectDetail">
-                                    <li> <span class="fa fa-calendar"></span>Date: October 2016</li>
-                                    <li> <span class="fa fa-user"></span>Client: Training Dragon | Pet Project</li>
-                                    <li><span class="fa fa-tag"></span> Category: Javascript | Web Development</li>
-                                </ul>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i
-                                        class="fa fa-times"></i> Close Project
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+                            <ul class="list-inline projectDetail">
+                                <li><i class="fa fa-calendar"></i> <span class="iconSpace">Date: October 2016</span>
+                                </li>
+                                <li><i class="fa fa-user"></i> <span class="iconSpace">Client: Training Dragon | Pet Project</span>
+                                </li>
+                                <li><i class="fa fa-tag"></i> <span class="iconSpace">Category: Javascript | Web Development</span>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i
+                                    class="fa fa-times"></i> Close Project
+                            </button>
+                        </div><!-- / modal-body-->
+                    </div><!-- / col-->
+                </div><!-- / row-->
+            </div><!-- / container -->
+        </div><!-- /modal-content -->
+    </div> <!--/ modal-dialog -->
+</div><!-- / portfolio modal 3-->
 
-    <!-- Portfolio Modal 4 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2>Newsletter Clinique</h2>
-                                <p class="item-intro lightGray">Responsive HTML Email</p>
-                                <img class="img-responsive img-centered" src="imgs/portfolio/fullsize/popup-modal/04.jpg" alt="">
-                                <p>Building a HTML email is much simpler than creating a website. However, you need to follow certain rules such us using 600px
-                                    for default width, single column design, using tables, inline css style and testing your code for in different email clients.
-                                    This project helped me to develop a clean interface by following the above rules. Once I finished my HTML y played with the
-                                    media queries to make it responsive.
-                                </p>
-                                <p>You can find my project in my <a
-                                        href="https://github.com/sposatoanabel/JAVASCRIPT-Currency-Converter-TrainingDragon">Github
-                                    account</a>.
-                                </p>
-                                <ul class="list-inline projectDetail">
-                                    <li><span class="fa fa-calendar"></span>Date: August 2016</li>
-                                    <li><span class="fa fa-user"></span>Client: Training Dragon | Pet Project</li>
-                                    <li><span class="fa fa-tag"></span> Category: HTML Email | Responsive | UI </li>
-                                </ul>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i
-                                        class="fa fa-times"></i> Close Project
-                                </button>
-                            </div>
-                        </div>
+ Portfolio Modal 4 -->
+<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div><!-- / -->
+                </div><!-- / -->
+            </div><!-- / -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Newsletter Clinique</h2>
+                            <p class="item-intro lightGray">Responsive HTML Email</p>
+                            <img class="img-responsive img-centered" src="imgs/portfolio/fullsize/popup-modal/04.jpg"
+                                 alt="">
+                            <p>Building a HTML email is much simpler than creating a website. However, you need to
+                                follow certain rules such us using 600px
+                                for default width, single column design, using tables, inline css style and testing your
+                                code for in different email clients.
+                                This project helped me to develop a clean interface by following the above rules. Once I
+                                finished my HTML y played with the
+                                media queries to make it responsive.
+                            </p>
+                            <p>You can find my project in my <a
+                                    href="https://github.com/sposatoanabel/JAVASCRIPT-Currency-Converter-TrainingDragon">Github
+                                account</a>.
+                            </p>
+                            <ul class="list-inline projectDetail">
+                                <li><i class="fa fa-calendar"></i> <span class="iconSpace">Date: August 2016</span></li>
+                                <li><i class="fa fa-user"></i> <span class="iconSpace">Client: Training Dragon | Pet Project</span>
+                                </li>
+                                <li><i class="fa fa-tag"></i> <span class="iconSpace">Category: HTML Email | Responsive | UI </span>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i
+                                    class="fa fa-times"></i> Close Project
+                            </button>
+                        </div><!-- / modal-body-->
+                    </div><!-- / col-->
+                </div><!-- / row -->
+            </div><!-- / container -->
+        </div><!-- / modal-content-->
+    </div> <!--/ modal-dialog -->
+</div><!-- / portfolio modal 4-->
+
+<!-- Portfolio Modal 5 -->
+<div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div><!-- / -->
+                </div><!-- / -->
+            </div> /
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>NextCar</h2>
+                            <p class="item-intro lightGray">Objects, constructors and prototype inheritance</p>
+                            <img class="img-responsive img-centered" src="imgs/portfolio/fullsize/popup-modal/05.jpg"
+                                 alt="">
+                            <p>Working with objects isn't easy when you start learning Javascript.So I decided to create
+                                a landing page to compare four different cars
+                                (Audi, Mercedes-Benz, BMW and Jaguar ) and generate the information dynamically.
+                                Every time the user presses a radio button, this will display the information that
+                                belongs to the selected car.</p>
+                            <p>My achievement was learning to work with constructors and and understand prototype
+                                inheritance</p>
+
+                            <p>You can download the PSD template in this portfolio sample item at <a
+                                    href="http://freebiesxpress.com/gallery/escape-one-page-psd-web-template/">FreebiesXpress.com</a>.
+                            </p>
+                            <ul class="list-inline projectDetail">
+                                <li><i class="fa fa-calendar"></i> <span class="iconSpace"> Date: September 2016</span>
+                                </li>
+                                <li><i class="fa fa-user"></i> <span class="iconSpace"> Client: Training Dragon | Pet Project</span>
+                                </li>
+                                <li><i class="fa fa-tag"></i> <span class="iconSpace"> Category: Javascript | Graphic Design | CSS | HTML</span>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i
+                                    class="fa fa-times"></i> Close Project
+                            </button>
+                        </div><!-- / modal-body-->
+                    </div><!-- / col -->
+                </div><!-- / row -->
+            </div><!-- / container -->
+        </div><!-- / modal-content-->
+    </div><!-- / modal-dialog -->
+</div><!-- / portfolio modal 5-->
+
+<!-- Portfolio Modal 6 -->
+<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>jQuery Responsive Slider</h2>
+                            <p class="item-intro lightGray">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="imgs/portfolio/fullsize/popup-modal/06.jpg"
+                                 alt="">
+                            <p>Slideshows are a good way to practice jQuery. In the past, I was used to downloading
+                                jQuery libraries to showcase my projects.
+                                However, after finishing my Javascript & HTML5 course, I decided to challenge myself and
+                                create a responsive gallery using jQuery.</p>
+                            <p></p>
+                            <p>You can download the PSD template in this portfolio sample item at <a
+                                    href="http://freebiesxpress.com/gallery/dreams-free-one-page-web-template/">FreebiesXpress.com</a>.
+                            </p>
+                            <ul class="list-inline projectDetail">
+                                <li><i class="fa fa-calendar"></i><span class="iconSpace"> Date: August 2016</span></li>
+                                <li><i class="fa fa-user"></i><span class="iconSpace"> Client: Training Dragon | Pet Project</span>
+                                </li>
+                                <li><i class="fa fa-tag"></i><span class="iconSpace"> Category: Web Design | Graphic Design</span>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i
+                                    class="fa fa-times"></i> Close Project
+                            </button>
+                        </div><!-- / modal-body-->
+                    </div><!-- / col-->
+                </div><!-- / row-->
+            </div><!-- / container -->
+        </div><!-- / modal-content-->
+    </div><!-- / modal-dialog -->
+</div><!-- / portfolio modal 6-->
 
-    <!-- Portfolio Modal 5 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2>NextCar</h2>
-                                <p class="item-intro lightGray">Objects, constructors and prototype inheritance</p>
-                                <img class="img-responsive img-centered" src="imgs/portfolio/fullsize/popup-modal/05.jpg"
-                                     alt="">
-                                <p>Working with objects isn't easy when you start learning Javascript.So I decided to create a landing page to compare four different cars
-                                    (Audi, Mercedes-Benz, BMW and Jaguar ) and generate the information dynamically.
-                                    Every time the user presses a radio button, this will display the information that belongs to the selected car.</p>
-                                <p>My achievement was learning to work with constructors and and understand prototype inheritance</p>
-
-                                <p>You can download the PSD template in this portfolio sample item at <a
-                                        href="http://freebiesxpress.com/gallery/escape-one-page-psd-web-template/">FreebiesXpress.com</a>.
-                                </p>
-                                <ul class="list-inline projectDetail">
-                                    <li><span class="fa fa-calendar"></span> Date: September 2016</li>
-                                    <li><span class="fa fa-calendar"></span>Client: Training Dragon | Pet Project</li>
-                                    <li><span class="fa fa-calendar"></span>Category: Javascript | Graphic Design | CSS | HTML</li>
-                                </ul>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i
-                                        class="fa fa-times"></i> Close Project
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 6 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2>jQuery Responsive Slider</h2>
-                                <p class="item-intro lightGray">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="imgs/portfolio/fullsize/popup-modal/06.jpg"
-                                     alt="">
-                                <p>Slideshows are a good way to practice jQuery. In the past, I was used to downloading jQuery libraries to showcase my projects.
-                                    However, after finishing my Javascript & HTML5 course, I decided to challenge myself and create a responsive gallery using jQuery.</p>
-                                <p></p>
-                                <p>You can download the PSD template in this portfolio sample item at <a
-                                        href="http://freebiesxpress.com/gallery/dreams-free-one-page-web-template/">FreebiesXpress.com</a>.
-                                </p>
-                                <ul class="list-inline projectDetail">
-                                    <li><span class="fa fa-calendar"></span> Date: August 2016</li>
-                                    <li> <span class="fa fa-calendar"></span>Client: Training Dragon | Pet Project</li>
-                                    <li> <span class="fa fa-calendar"></span>Category: Web Design | Graphic Design</li>
-                                </ul>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i
-                                        class="fa fa-times"></i> Close Project
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="bower_components/magnific-popup/dist/jquery.magnific-popup.js"></script>
-    <script src="js/main.js"></script>
-    </body>
+<!-- Scripts -->
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
 </html>
