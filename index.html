@@ -18,6 +18,12 @@
     <link rel="stylesheet" href="bower_components/normalize-css/normalize.css">
     <!--main css-->
     <link rel="stylesheet" href="css/main.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="imgs/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="imgs/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="imgs/favicons/favicon-16x16.png">
+    <link rel="manifest" href="imgs/favicons/manifest.json">
+    <link rel="mask-icon" href="imgs/favicons/safari-pinned-tab.svg" color="#18c2c2">
+    <meta name="theme-color" content="#ffffff">
 </head>
 <body data-spy="scroll" data-target="#my-navbar">
 <div id="wrapper">
@@ -488,7 +494,6 @@
                 <li><a href="#js" data-toggle="tab">JS</a></li>
                 <li><a href="#php" data-toggle="tab">PHP</a></li>
                 <li><a href="#html5" data-toggle="tab">HTML5</a></li>
-                <li><a href="#wp" data-toggle="tab">Wordpress</a></li>
             </ul>
             <div id="myTabContent" class="tab-content">
                 <div class="tab-pane fade active in" id="html">
@@ -521,7 +526,7 @@
 
                     <article class="row  tweaked-margin">
                         <div class="col-lg-4 col-md-4 col-sm-12">
-                            <img src="imgs/blog/webDesign/01.jpg" width="596" height="335"
+                            <img src="imgs/blog/js/01.jpg" width="596" height="447"
                                  class="img-responsive center-block"
                                  alt="">
                         </div>
@@ -549,9 +554,10 @@
                     </article><!--/row-->
 
                 </div>
-                <div class="tab-pane fade" id="php"><article class="row  tweaked-margin">
+                <div class="tab-pane fade" id="php">
+                    <article class="row  tweaked-margin">
                     <div class="col-lg-4 col-md-4 col-sm-12">
-                        <img src="imgs/blog/webDesign/01.jpg" width="500" height="375"
+                        <img src="imgs/blog/php/01.jpg" width="596" height="447"
                              class="img-responsive center-block"
                              alt="">
                     </div>
@@ -574,9 +580,32 @@
                         </p>
                         <a href="http://www.sposatoanabel.com" target="_blank" class="btn btn-link">Read More <i class="fa fa-arrow-right"></i></a>
                     </div><!--/ news paragraph-->
+                </article><!--/row-->
+                </div>
+                <div class="tab-pane fade" id="html5">
+                    <article class="row  tweaked-margin">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <img src="imgs/blog/html5/01.jpg" width="596" height="447"
+                             class="img-responsive center-block"
+                             alt="">
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-sm-12">
+                        <h3>HTML5 course</h3>
+                        <p class="lightGray"><i class="fa fa-calendar"></i><span
+                                class="iconSpace">Posted Oct. 15, 2016</span>
+                            | <i class="fa fa-clock-o"></i><span
+                                    class="iconSpace">Reading time: Less than a minute.</span></p>
+                        <hr>
+
+                        <p>I expected something different from this course.  At first, I thought that we would learn how to work with the media queries and css3 animations.
+                            However, I was wrong we saw some new features such as header, nav, section, aside, footer, detail, summary tags, :: before and ::after css selectors among others. </p>
+
+                        <p>Among other topics, I would like to highlight that form elements and attributes in HTML5 provide a better experience for users by making forms more consistent across websites.
+                            We practiced in class how to manipulate sliders and change the colour of a box every time you change their value.
+                        </p>
+                        <a href="http://www.sposatoanabel.com" target="_blank" class="btn btn-link">Read More <i class="fa fa-arrow-right"></i></a>
+                    </div><!--/ news paragraph-->
                 </article><!--/row--></div>
-                <div class="tab-pane fade" id="html5"><p>lorem ipsum dolor sit amet</p></div>
-                <div class="tab-pane fade" id="wp"><p>lorem ipsum dolor sit amet</p></div>
             </div>
         </section>
     </main>
@@ -722,19 +751,16 @@
                             <img class="img-responsive img-centered"
                                  src="imgs/portfolio/fullsize/popup-modal/02.jpg"
                                  alt="">
-                            <p><a href="http://designmodo.com/startup/?u=787">Startup Framework</a> River Plate
-                                Consultancy Ltd is a
-                                responsive website with four sections.
-                                This project was built in HTML, CSS3 and Javascript.</p>
-
+                            <p>River Plate Consultancy Ltd is a responsive website with four sections. This project was built in HTML, CSS3 and Javascript.</p>
                             <p> Before developing the website,
                                 I created a wireframe in a software called Axure and the UI in Sketch App.
-                                It must be emphasised that Flexbox helped me building the site responsive.</p>
+                                It must be emphasised that Flexbox helped me building the site responsive.
+                            </p>
                             <p>I also played a little bit with Javascript to develop a simple slider on the
-                                homepage.</p>
-                            <p>You can have a look at this project in my <a
-                                    href="https://github.com/sposatoanabel/HTML-CSS-Project-Training-Dragon">github
-                                account</a>.
+                                homepage.
+                            </p>
+                            <p>You can have a look at this project in my
+                                <a href="https://github.com/sposatoanabel/HTML-CSS-Project-Training-Dragon" target="_blank">github account</a>.
                             </p>
                             <ul class="list-inline projectDetail">
                                 <li><i class="fa fa-calendar"></i> <span class="iconSpace">Date: August 2016</span></li>
@@ -824,7 +850,7 @@
                             <h2>Newsletter Clinique</h2>
                             <p class="item-intro lightGray">Responsive HTML Email</p>
                             <img class="img-responsive img-centered" src="imgs/portfolio/fullsize/popup-modal/04.jpg"
-                                 alt="">
+                                 alt="Newsletter Clinique">
                             <p>Building a HTML email is much simpler than creating a website. However, you need to
                                 follow certain rules such us using 600px
                                 for default width, single column design, using tables, inline css style and testing your
