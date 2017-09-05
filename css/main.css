@@ -313,13 +313,15 @@ header a {
     margin-top: 40px;
 }
 
-.navbar-brand > img {
-    width: 250%;
+.brand-logo{
+    background: url( "../imgs/sposato-logo.svg" ) no-repeat center center;
+    width: 150px;
     max-width: 170px;
+
 }
 
 .navbar-brand {
-    padding: 11px 15px;
+   margin-left: 15px;
 }
 
 footer img {
@@ -343,15 +345,6 @@ nav .navbar-nav .navbar-right li a:hover {
     margin: 4px -15px;
 }
 
-.navbar-brand {
-    padding: 23px 15px;
-}
-
-.navbar-brand > img {
-    width: 250%;
-    max-width: 170px;
-    vertical-align: middle;
-}
 
 .navbar-default {
     background-color: #f7f7f7;
@@ -360,10 +353,6 @@ nav .navbar-nav .navbar-right li a:hover {
 }
 
 @media (max-width: 767px) {
-
-    .navbar-brand {
-        padding: 14px 20px;
-    }
 
     .navbar-default .navbar-collapse, .navbar-default .navbar-form {
         border-color: #eeeeee;
@@ -1002,11 +991,6 @@ footer img {
     }
 
 
-
-    .navbar-brand {
-        padding: 14px 20px;
-    }
-
     .heroImg{
         background-size: 72%;
     }
@@ -1195,11 +1179,6 @@ footer img {
         height: auto;
     }
 
-
-    .navbar-brand {
-        padding: 11px 20px;
-    }
-
     .heroImg{
         background-size: 50%;
     }
@@ -1385,9 +1364,7 @@ footer img {
     }
 
 
-    .navbar-brand {
-        padding: 14px 20px;
-    }
+
 
     .heroImg{
         background-size: 30%;
@@ -1572,7 +1549,7 @@ footer img {
     }
 
     .heroImg{
-        background-size: 30%;
+        background-size: 20%;
     }
 
 
@@ -1735,7 +1712,7 @@ footer img {
     }
 
     .heroImg{
-        background-size: 30%;
+        background-size: 20%;
     }
 
 
