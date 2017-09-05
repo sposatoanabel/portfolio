@@ -27,7 +27,8 @@
     "normalize-css": "^7.0.0",
     "shufflejs": "^4.2.0",
     "js-throttle-debounce": "^0.1.1",
-    "jquery": "^3.2.1"
+    "jquery": "^3.2.1",
+    "open-sans-all": "^0.1.2"
   },
   "devDependencies": {
     "bootswatch-dist": "simplex"
