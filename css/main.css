@@ -459,6 +459,7 @@ section, footer {
 
 #services h3, #services p {
     color: #22223a;
+    line-height: 1.9rem;
 
 }
 
@@ -512,10 +513,19 @@ section, footer {
     border-color: #4ecdc4;
 }
 
-.panel-success > .panel-heading {
+.panel-success > .panel-heading{
     color: #4ecdc4;
     background-color: #ffffff;
     border-color: #4ecdc4;
+}
+
+.panel-success > .panel-heading, #panelTitle  {
+
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+
 }
 
 .panel-success {
@@ -606,7 +616,7 @@ section, footer {
 
 .portfolio-modal .modal-content p.item-intro {
     margin: 10px 0 30px;
-    font-size: 15px;
+    font-size: 18px;
     text-align: center;
 }
 
@@ -918,7 +928,7 @@ footer img {
     }
 
     #services p {
-        color: #808990;
+        color: #545454;
         line-height: 1.8rem;
     }
 
@@ -1026,7 +1036,7 @@ footer img {
         text-align: left;
         margin-top: 3rem;
         font-weight: 600;
-        color: #222222;
+        color: #545454;
         font-size: 22px;
     }
 
@@ -1209,6 +1219,7 @@ footer img {
     #about h3 {
         text-align: left;
         margin-top: 3rem;
+        color: #545454;
     }
 
     .lead {
@@ -1411,6 +1422,7 @@ and (max-device-width: 667px) {
     #about h3{
         font-weight: 600;
         padding: 20px 15px 0 15px;
+        color: #545454;
     }
 
     #about #myPic{
@@ -1452,12 +1464,20 @@ and (max-device-width: 667px) {
         line-height: 2rem;
     }
 
-    .panel-success > .panel-heading, #panelTitle {
+    .panel-success > .panel-heading{
+        color: #4ecdc4;
+        background-color: #ffffff;
+        border-color: #4ecdc4;
+    }
+
+    .panel-success > .panel-heading, #panelTitle  {
+
         font-size: 20px;
         font-weight: 600;
         text-align: center;
-    }
+        display: block;
 
+    }
 
     .panel-heading{
         padding: 20px 15px;
@@ -1542,7 +1562,7 @@ and (max-device-width: 667px) {
         font-size: 1rem;
     }
 
-    .iconSpace:last-child, .fa-clock-o{
+    #blog .iconSpace:last-child, #blog .fa-clock-o{
         display: none;
 
     }
@@ -1550,6 +1570,16 @@ and (max-device-width: 667px) {
     #blog h3 {
 
         font-size: 1.8rem;
+        margin: 30px 0 16px 0;
+        text-align: center;
+    }
+
+    #blog .lightGray{
+        text-align: center;
+    }
+
+    #blog .nav-tabs{
+        border-bottom: none;
     }
 }
 
